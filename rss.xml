@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vladislav Orlov’s blog - orlov-vo.ru]]></title><description><![CDATA[Personal blog of frontend developer who lives and works in Cyprus.]]></description><link>http://orlov-vo.ru/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 23 Apr 2018 19:26:28 GMT</lastBuildDate><item><title><![CDATA[IT-иммиграция на Кипр в Лимассол из столицы Сибири]]></title><description><![CDATA[Привет тебе мой друг из самой южной страны Европы, Республики Кипр. Так резко повернулась судьба, из-за чего мы с Олесей решили переехать из…]]></description><link>http://orlov-vo.ru//posts/it-migration-to-cyprus/</link><guid isPermaLink="false">http://orlov-vo.ru//posts/it-migration-to-cyprus/</guid><pubDate>Sat, 16 Dec 2017 15:47:11 GMT</pubDate><content:encoded>&lt;p&gt;&lt;div&gt;
+          &lt;a
+            class=&quot;gatsby-resp-image-link&quot;
+            title=&quot;original image&quot;
+            href=&quot;/static/limassol-a1d844455c8bbc11d044a3a85241f09f-afb26.jpg&quot;
+            style=&quot;display: block&quot;
+            target=&quot;_blank&quot;
+          &gt;
+            &lt;div
+              class=&quot;gatsby-resp-image-wrapper&quot;
+              style=&quot;position: relative; z-index: -1; &quot;
+            &gt;
+              &lt;div
+                class=&quot;gatsby-resp-image-background-image&quot;
+                style=&quot;padding-bottom: 66.66666666666666%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB0PnWp3idC//EABoQAQEAAgMAAAAAAAAAAAAAAAIBAAMEEBP/2gAIAQEAAQUCvJJR3BZ7nouzKLb/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEDBQAAAAAAAAAAAAAAAAABAhEQIjEyQf/aAAgBAQAGPwJsLb0kzXY//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAERIUExUf/aAAgBAQABPyGCh4aTaWsqx+BDcOEc8YHOz//aAAwDAQACAAMAAAAQ0x//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/ENlEf//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/EKf/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhUdFhcYH/2gAIAQEAAT8QCkllHwnUsWIroD2QDT41wlDDl2EN84ZRltdb3P/Z&apos;); background-size: cover;&quot;
+              &gt;
+                &lt;img
+                  class=&quot;gatsby-resp-image-image&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  alt=&quot;&quot;
+                  title=&quot;&quot;
+                  src=&quot;/static/limassol-a1d844455c8bbc11d044a3a85241f09f-bb5a2.jpg&quot;
+                  srcset=&quot;/static/limassol-a1d844455c8bbc11d044a3a85241f09f-554d9.jpg 163w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-47899.jpg 325w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-bb5a2.jpg 650w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-c4100.jpg 975w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-e0962.jpg 1300w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-3d590.jpg 1950w,/static/limassol-a1d844455c8bbc11d044a3a85241f09f-afb26.jpg 4896w&quot;
+                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+          &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Привет тебе мой друг из самой южной страны Европы, Республики Кипр.&lt;/p&gt;
+&lt;p&gt;Так резко повернулась судьба, из-за чего мы с Олесей решили переехать из
+снежной столицы Сибири на чудесный остров Кипр. Все началось с поиска новой
+работы и собеседований на позиции веб-разработчика в различные компании. Мой
+круг поиска не был ограничен Новосибирском (где я жил последние 5 лет) и Россией
+в целом, поэтому одной из компаний была компания Ortnec, расположенная в городе
+Лимассол, куда я прошел по итогу собеседований.&lt;/p&gt;
+&lt;p&gt;Недолго думая, обсудив с родными и близкими, я согласился на предложение. Нам был
+предоставлен релокационный пакет, который включал в себя:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;билет на самолет для меня туда и обратно&lt;/li&gt;
+&lt;li&gt;предоставлено жилье на 2 месяца&lt;/li&gt;
+&lt;li&gt;билеты на самолет для меня и моей девушки в одну сторону&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Подготовка к переезду и сам перелет&lt;/h2&gt;
+&lt;p&gt;Сроки на сборы до перелета были сжатые. У нас была всего одна неделя, чтобы
+максимально подготовиться к переезду. Это связано с тем, что мне была предложена
+освобождающаяся позиция веб-разработчика и нужно было перенять дела и всю нужную
+информацию, чтобы быстро втянуться в процесс.&lt;/p&gt;
+&lt;p&gt;Мы изначально решили лететь вместе, чтобы не разлучаться на долгое время,
+поэтому воспользовались билетами в одну сторону для двоих из релокационного
+пакета. Это было рискованно в том плане, что в случае чего билеты обратно
+придется покупать из своего кармана.&lt;/p&gt;
+&lt;p&gt;Наши билеты были со стандартным багажом до 23кг, это мы решили использовать
+максимально эффективно - все вещи мы упаковали в вакуумные пакеты из fix price -
+получилось очень компактно! То, что не влезло и было не сильно нужным, мы
+упаковали отдельно в коробки, которые решили отправить после испытательного
+срока, когда будет рабочая виза.&lt;/p&gt;
+&lt;p&gt;Габаритные вещи, такие как мебель и технику мы решили продать, к сожалению
+недели нам не хватило. Но тут нас выручили лучшие друзья, которые
+помогли с этой проблемой.&lt;/p&gt;
+&lt;p&gt;Различные вещи и хлам, который накопился за годы, был обнаружен нами в
+недрах квартиры и выкинут в мусор. К сожалению, для раздачи нуждающимся не было
+времени.&lt;/p&gt;
+&lt;p&gt;Помимо вещей и денег, нам нужно было подготовиться к оформлению визы и брака на
+Кипре, для этого надо было перевести документы на английский язык. Это можно
+сделать и на Кипре, но это дороже.&lt;/p&gt;
+&lt;p&gt;Из мелких дел, которые мы считали важными это: расторжение всевозможных
+договоров о Интернете, мобильной связи, счетов в банках и т.д.&lt;/p&gt;
+&lt;p&gt;Остальные дела, которые нам казались сложными, мы проработали и решили отложить
+до моего приезда. В день вылета в Новосибирске у нас осталась машина и съёмная
+квартира, в которой ждал моего возвращения наш пёс и собранные для перевозки вещи.
+Не переживайте, у собаки был нянь :) наш друг дрессировщик.&lt;/p&gt;
+&lt;h2&gt;На Кипре&lt;/h2&gt;
+&lt;p&gt;Очень солнечно и тепло. Мы были немного в шоке, после выхода на улицу из
+аэропорта. Думаю, многие поймут это чувство, когда летишь из холода в жару.&lt;/p&gt;
+&lt;p&gt;По прилету в Ларнаку нас встретил таксист, который отвез до временных
+аппартаментов в Лимассоле. В них мы разместились на неделю, позже мы переехали в нашу
+съемную квартиру.&lt;/p&gt;
+&lt;h2&gt;Подготовка к перевозу животных&lt;/h2&gt;
+&lt;p&gt;Отдельным моментом, стоял вопрос перевозки животных (собаки и кошки), и если
+с кошкой получилось просто, мы её пристроили к нашей хорошей подруге, то вот с собакой
+пришлось “помучаться”.&lt;/p&gt;
+&lt;p&gt;Наши мучения начались с изучения
+&lt;a href=&quot;http://www.moa.gov.cy/moa/vs/vs.nsf/vs07_en/vs07_en?OpenDocument&quot;&gt;требований местного законодательства по ввозу животных&lt;/a&gt;.
+Если вкратце, то требования сводились к следующим пунктам:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Животное должно быть чипировано и привито от бешенства (причем важным
+моментом является порядок: сначала чипирование, потом прививка, иначе карантин)&lt;/li&gt;
+&lt;li&gt;Животное должно быть старше 3 месяцев, здорово и не быть на карантине
+(21-30 дней после прививки от бешенства)&lt;/li&gt;
+&lt;li&gt;Запрет на ввоз определенных пород.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;По всем пунктам мы были не готовы. Нашего пса мы привили в щенячьем возрасте, как
+и положено, но чипировать мы его тогда не стали. А зря! Пришлось чипироваться,
+и вдобавок ставить новую прививку, хотя действие старой еще не закончилось.
+Естественно, после вакцинации мы автоматически попали на карантин, из-за которого
+нам нельзя выехать из страны с псом. Карантин для этой вакцины составил 21 день.&lt;/p&gt;
+&lt;p&gt;Насчет запрещенных пород, у нас тоже были проблемы. Наш герой метис питбуля и
+подходит под запрет. Благо, мы нигде (в чипе, в вет. паспорте) не указали о породе
+и выдали его за метиса кане-корсо.&lt;/p&gt;
+&lt;p&gt;Перед поездкой за собакой, мы предупредили авиакомпанию, о том что я полечу
+вместе с питомцем, а также вет. контроль обоих аэропортов, чтобы нас встречали.&lt;/p&gt;
+&lt;h2&gt;Перевозка собаки на Кипр&lt;/h2&gt;
+&lt;p&gt;После окончания карантина, я, как мы планировали, вернулся за ним в Новосибирск.
+Наша встреча была очень теплой, он очень ждал моего приезда. Главные проблемы,
+которые нужно было решить для перевозки это обменять контейнер,
+восстановить вет. паспорт (за день до моего прилета он его разгрыз),
+получить ветеринарные свидетельства.&lt;/p&gt;
+&lt;p&gt;Проблема возникшая с контейнером выглядит абсурдной. Как я писал ранее псу мы
+купили контейнер Skudo 7, который очень просторный и удобный. Но при подачи
+заявки в “Аэрофлот” мне отказали в приеме такого контейнера. Причина была в том,
+что он превысил допустимые нормы по суммарным габаритам высоты, ширины и длины
+на (внимание!) 4 см. Норма 250 см в “Аэрофлоте” (Поэтому ОБЯЗАТЕЛЬНО уточняйте
+информацию в авиакомпании, которой летите). Пришлось срочно менять контейнер на
+модель меньшего размера.&lt;/p&gt;
+&lt;p&gt;С ветеринарным паспортом нам “повезло”: Марс его погрыз аккуратно,
+не уничтожив наклейки и записи вакцин. Восстановили его без проблем, все
+наклейки нам перенесли и заверили все вакцины.&lt;/p&gt;
+&lt;p&gt;Получение ветеринарного свидетельства прошло без проблем, если не учитывать тот
+факт, что я пришел за 5 минут до закрытия. Пришлось долго извиняться и упрашивать
+сделать нам свидетельство. Процедура не быстрая, занимает около 30 минут, поэтому
+планируйте заранее.&lt;/p&gt;
+&lt;p&gt;Вещи и машину я отвез в родной город Новокузнецк к родителям, арендованную
+квартиру передал хозяину, а сам с псом поехал в аэропорт. Там забрал
+международный сертификат о состоянии здоровья животного и пошёл регистрироваться
+на рейс. За собаку я уплатил 45 евро, как за негабаритный груз.&lt;/p&gt;
+&lt;p&gt;По прилету в Ларнаку мы прошли ветеринарный контроль: с собаки считали номер
+микрочипа, сверили документы, и я уплатил 42 евро в качестве таможенной пошлины
+за животных.&lt;/p&gt;
+&lt;h2&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;В заключении, хочу сказать, что мы смогли очень быстро переехать в
+другую страну, максимально решив наши дела в короткие сроки. В следующих статьях
+планирую рассказать о том, как мы заключили тут наш брак и подвести итоги за
+первые месяцы жизни на Кипре.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[В поисках нового языка для изучения или почему я выбрал ReasonML]]></title><description><![CDATA[В жизни программиста наступают такие моменты, когда ты осознаешь потребность в изучении чего-то
+нового. Это может быть что угодно: новая…]]></description><link>http://orlov-vo.ru//posts/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/</link><guid isPermaLink="false">http://orlov-vo.ru//posts/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/</guid><pubDate>Thu, 16 Nov 2017 13:08:24 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/images/reasonml.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;В жизни программиста наступают такие моменты, когда ты осознаешь потребность в изучении чего-то
+нового. Это может быть что угодно: новая библиотека, фреймворк или язык программирования.&lt;/p&gt;
+&lt;p&gt;Такая потребность связана с тем, что при творческом выгорании на работе со знакомыми инструментами,
+нервная система хочет пуститься в авантюру и изучить новое.&lt;/p&gt;
+&lt;h2&gt;Постановка задачи и выбор кандидатов&lt;/h2&gt;
+&lt;p&gt;Найти язык программирования, который отвечает следующим требованиям:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;есть функциональная парадигма&lt;/li&gt;
+&lt;li&gt;иммутабельность переменных&lt;/li&gt;
+&lt;li&gt;строгая типизация&lt;/li&gt;
+&lt;li&gt;возможность работать с экосистемой js (устанавливать npm пакеты)&lt;/li&gt;
+&lt;li&gt;трансплитерация в js код&lt;/li&gt;
+&lt;li&gt;есть коммерческая поддержка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Возможные кандидаты, которые хоть немного на слуху:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ClojureScript&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Elm&lt;/li&gt;
+&lt;li&gt;PureScript&lt;/li&gt;
+&lt;li&gt;BuckleScript&lt;/li&gt;
+&lt;li&gt;ReasonML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ClojureScript&lt;/h3&gt;
+&lt;p&gt;ClojureScript — это Clojure, который транслируется в JavaScript. Если говорить о самом Clojure, то
+это современный диалект Лиспа, является языком программирования общего назначения с поддержкой
+разработки в интерактивном режиме, поощряющий функциональное программирование.&lt;/p&gt;
+&lt;p&gt;Появился в 2012 году и повлиял на становление других языков, которые реализовывали типы в JS:
+например на TypeScript.&lt;/p&gt;
+&lt;p&gt;К сожалению, в последнее время испытывает сложности и вряд ли будет расти дальше, судя по Google
+Trends.&lt;/p&gt;
+&lt;h3&gt;TypeScript&lt;/h3&gt;
+&lt;p&gt;Язык программирования, который был создан в лабораториях Microsoft. Изначально вобрал в себя лучшее
+из двух миров: JS и C#. Но ориентация идет более на JS, т.к. данный язык является обратно
+совместимым с JS. Это позволяет очень быстро начать внедрять TypeScript на уже существующих
+проектах.&lt;/p&gt;
+&lt;p&gt;Появился в 2012 году и очень стремительно развивается. Такое развитие, скорее, связано с
+использованием его во фреймворке Angular 2+, разрабатываемым Google.&lt;/p&gt;
+&lt;p&gt;Я очень много на нем проектов сделал, отличный язык позволяющий явно указывать типы и проверять их
+на этапе компиляции. Спасал меня много раз от “выстрелов себе в ноги”.&lt;/p&gt;
+&lt;h3&gt;Elm&lt;/h3&gt;
+&lt;p&gt;Интересный язык программирования, который наделал много шума в 2016 году. Чем он так отличился от
+других? А тем, что автор заявил то, что с этим языком программирования не будет исключений в
+runtime. Это о том, о чём многие мечтают до сих пор.&lt;/p&gt;
+&lt;p&gt;Но, есть во всем этом ложка дегтя: данный язык насаждает только одну архитектуру, которая возведена в
+абсолют, как единственно возможная. Да, такая диктатура делает все приложения легко понятными для
+всех. Но, такое ограничение не для меня, мне приходится часто писать код на бэкенде, а данный язык
+мне с этим помочь не может.&lt;/p&gt;
+&lt;h3&gt;PureScript&lt;/h3&gt;
+&lt;p&gt;Тот самый кандидат, который мне понравился по нескольким критериям. Он полностью функциональный -
+наследник Haskell, самого чистого функционального языка. Популярный судя по трендам.&lt;/p&gt;
+&lt;p&gt;Думаю его попробовать изучить.&lt;/p&gt;
+&lt;h3&gt;BuckleScript&lt;/h3&gt;
+&lt;p&gt;Транслятор OCaml в JS.&lt;/p&gt;
+&lt;h3&gt;ReasonML&lt;/h3&gt;
+&lt;p&gt;Разработан недавно в компании Facebook. Наследник OCaml, который транслируется в JS через
+BuckleScript. Говоря о OCaml, данный язык очень популярен среди разработчиков Facebook, они им часто
+вдохновляются и создают такие крутые проекты, как React и т.д.&lt;/p&gt;
+&lt;p&gt;По слухам, они создают транслятор JS -&gt; ReasonML. И это немного обескураживает. С таким
+инструментом, можно очень быстро “склонировать” экосистему JS.&lt;/p&gt;
+&lt;p&gt;Начну с данного языка, т.к. он ближе по требованиям ко мне.&lt;/p&gt;
+&lt;h2&gt;Резюмируя&lt;/h2&gt;
+&lt;p&gt;Подводя итог, я хочу сказать, что я для себя выбрал пару языков, которые буду изучать в свободное от
+работы время на домашних проектах. Первый язык это ReasonML, он фаворит по требованиям, а второй
+PureScript, который мне также симпатичен.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Какой язык программирования выбрать в 2018 году]]></title><description><![CDATA[Проблема идущая из года в год затрагивает умы как начинающего поколения
+программистов так и уже состоявшихся энтузиастов. В социальных сетях…]]></description><link>http://orlov-vo.ru//posts/kakoj-yazyk-programmirovaniya-vybrat-v-2018/</link><guid isPermaLink="false">http://orlov-vo.ru//posts/kakoj-yazyk-programmirovaniya-vybrat-v-2018/</guid><pubDate>Thu, 19 Oct 2017 09:55:30 GMT</pubDate><content:encoded>&lt;p&gt;&lt;div&gt;
+          &lt;a
+            class=&quot;gatsby-resp-image-link&quot;
+            title=&quot;original image&quot;
+            href=&quot;/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-98302.jpg&quot;
+            style=&quot;display: block&quot;
+            target=&quot;_blank&quot;
+          &gt;
+            &lt;div
+              class=&quot;gatsby-resp-image-wrapper&quot;
+              style=&quot;position: relative; z-index: -1; &quot;
+            &gt;
+              &lt;div
+                class=&quot;gatsby-resp-image-background-image&quot;
+                style=&quot;padding-bottom: 57.22222222222223%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB6y7cKgqE/8QAHBAAAgAHAAAAAAAAAAAAAAAAAQIAAxASEyEi/9oACAEBAAEFAsvRnbR2KxYtP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAAQETEB/9oACAEBAAY/ApKdMWL/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhEFH/2gAIAQEAAT8hYZfwmWAScwjIO6LHW+f/2gAMAwEAAgADAAAAEIPP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QEn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAQEAAwEAAAAAAAAAAAABEQAhMVFhcf/aAAgBAQABPxBwAvpZkETCd/fnnJE8JWq/csFOjddDKJe1cAABA3//2Q==&apos;); background-size: cover;&quot;
+              &gt;
+                &lt;img
+                  class=&quot;gatsby-resp-image-image&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  alt=&quot;&quot;
+                  title=&quot;&quot;
+                  src=&quot;/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-bb5a2.jpg&quot;
+                  srcset=&quot;/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-554d9.jpg 163w,/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-47899.jpg 325w,/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-bb5a2.jpg 650w,/static/kakoj-yazyk-programmirovaniya-vybrat-v-2018-162f4b280ea13f13c3a6fc41c50a3458-98302.jpg 720w&quot;
+                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+          &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Проблема идущая из года в год затрагивает умы как начинающего поколения
+программистов так и уже состоявшихся энтузиастов. В социальных сетях, на форумах
+и различных ресурсах ведутся священные войны за выбор лучшего языка
+программирования. Приводятся различные сравнения производительности на
+моделированных задачах, когда один язык позволяет быстрее решить задачу.&lt;/p&gt;
+&lt;p&gt;Но выбрав язык на вооружение по бенчмаркам, вскоре понимаешь минусы, начинаешь
+чувствовать дискомфорт. Например выбрав очередного “убийцу X”, ты сталкиваешься
+со следующими проблемами: слабо развитое коммьюнити, малое количество доступных
+библиотек.&lt;/p&gt;
+&lt;h1&gt;Рейтинг TIOBE&lt;/h1&gt;
+&lt;p&gt;Есть другая альтернатива выбора, по рейтингам. Один из известных рейтингов,
+который оценивает по количеству специалистов на рынке, количеству курсов, а
+также поисковых запросов является &lt;a href=&quot;https://www.tiobe.com/tiobe-index/&quot;&gt;TIOBE&lt;/a&gt;.
+Важным замечанием будет то, что в рейтинге нет оценки какой лучший язык или
+на котором было написано больше кода.&lt;/p&gt;
+&lt;p&gt;Давайте посмотрим данный рейтинг, рассмотрим первую десятку лидеров. Каждому
+я постараюсь дать собственный комментарий. На момент написания заметки
+(Октябрь 2017) рейтинг выглядит следующим образом:&lt;/p&gt;
+&lt;h2&gt;1. Java&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;String&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        System&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Любимчик больших компаний, позволяет писать софт, который запускается на любой
+операционной системе, которая поддерживает установку виртуальной машинный Java
+(JVM). Данный язык насаждает объектно-ориентированную парадигму, заставляя
+писать под любую прихоть классы.&lt;/p&gt;
+&lt;p&gt;Есть беда с оперативной памятью, она заключается в том, что операции выделения
+и очистки памяти берет на себя виртуальная машина. Нужно уметь правильно тюнить
+виртуальную машину, чтобы софт не зависал при очистке памяти.&lt;/p&gt;
+&lt;p&gt;В наше время, после изучения данного языка программирования, советую
+присмотреться к языкам основанным на работе с JVM, такие как: Scala, Kotlin и др.
+Они позволяют писать быстрее и красивее, а также использовать библиотеки под
+Java. Но нужно понимать как работает все внутри, поэтому без изучения Java
+в эти языки лучше не лезть.&lt;/p&gt;
+&lt;h2&gt;2. C&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;stdio.h&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; main &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  printf &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello, World!\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Обязательно к изучению, для понимания основ системного программирования.
+Позволяет писать эффективные программы, которые экономично используют память.
+Но важно знать то, что данный язык позволяет стрелять себе по ногам, не защищая
+тебя от критичных ошибок в runtime, утечек памяти и т.д.&lt;/p&gt;
+&lt;p&gt;За время существования языка было написано много библиотек и примеров.
+Проблемы с этим языком начинаются во время поиска работы, нужно иметь уверенное
+знания этого языка, а также эффективных алгоритмов и принципы оптимизации.
+В добавок нужны проекты за спиной. С проектами можно решить проблему: заказав
+например Arduino, собрав что-то интересное и продемонстрировав на собеседовании.&lt;/p&gt;
+&lt;p&gt;Для дальнейшего развития советую рассмотреть следующих кандидатов: Rust и
+Assembly Language. Первый сохранит вам ноги, оставив возможности писать
+компактные исполняемые файлы, второй позволит углубится в работу процессора.&lt;/p&gt;
+&lt;h2&gt;3. C++&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    std&lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt;cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Советую изучать после C, чтобы было понимание как все хранится внутри и как
+работать с памятью и т.д. Хотя C++ позволяет писать очень хороший код, который
+сложно завалить, но случаи с отстрелом ног тут учащаются из-за очень богатых
+возможностей самого языка.&lt;/p&gt;
+&lt;p&gt;На минуточку: это один из языков, который невозможно изучить на все 100%.
+С каждым годом выходят новые стандарты, которые позволяют писать код лучше
+и быстрее.&lt;/p&gt;
+&lt;p&gt;Мне больше всего в этом языке нравится стандартная библиотека (STL), которой
+хватает на большинство потребностей. А если её не хватает, то можно подключить
+Boost. :)&lt;/p&gt;
+&lt;h2&gt;4. C&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;using&lt;/span&gt; System&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;namespace&lt;/span&gt; HelloWorld
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Hello&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            Console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;WriteLine&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Отличный язык программирования, позволяет писать отличный софт, который хорошо
+будет себя проявлять в крупных и средних компаниях.&lt;/p&gt;
+&lt;p&gt;Возможности языка позволяют ему создавать десктопные, мобильные (Xamarin) и
+серверные приложения.&lt;/p&gt;
+&lt;p&gt;Для дальнейшего развития, можно рассмотреть язык Go для написания сетевых
+программ. Он прост в освоении, насаждает единый стиль написания кода, поэтому
+очень удобный в крупных командах.&lt;/p&gt;
+&lt;h2&gt;5. Python&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;До сих пор неизвестный мне чудик, который я все еще не начал изучать. Наслышан
+о нем как о легком языке, с которого можно начинать путь программиста.&lt;/p&gt;
+&lt;p&gt;Из минусов слышал, что проблемы с паралельным выполнением кода и скоростью
+исполнения кода по сравнению с компилируемыми языками.&lt;/p&gt;
+&lt;p&gt;Однако почему стоит начать учить его: очень много библиотек и с недавним
+трендом к машинному обучению, данный язык является лучшим выбором из-за
+выбора ML-библиотек.&lt;/p&gt;
+&lt;h2&gt;6. JavaScript&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hello, World!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;По мне так язык будущего, который очень долго будет расти. С каждым годом
+производители браузеров ускоряют исполнения программ, оптимизируя как сами
+движки так и программы, которые туда загружаются.&lt;/p&gt;
+&lt;p&gt;Новые стандарты радуют глаз. А если их не хватает или нужна поддержка старых
+движков, есть возможность использовать трансплитеры такие как: Babel, TypeScript,
+&lt;del&gt;ClojureScript&lt;/del&gt;, &lt;del&gt;CoffeScript&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;Для развития советую изучать TypeScript, который вносит очень крутые плюшки
+в ваш код, делая его очень стабильным.&lt;/p&gt;
+&lt;h2&gt;7. PHP&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token delimiter important&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;Hello, World!\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Мой первый язык программирования. Сейчас уже давно его не использую, хотя
+иногда встречаются задачи, когда нужно подправить на сайте у клиента какой-то
+участок кода.&lt;/p&gt;
+&lt;h2&gt;8. Visual Basic .NET&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-basic&quot;&gt;&lt;code class=&quot;language-basic&quot;&gt;Module Hello
+  &lt;span class=&quot;token keyword&quot;&gt;Sub&lt;/span&gt; Main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      MsgBox&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;End&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;Sub&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;End&lt;/span&gt; Module&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Честно не понимаю как он тут оказался. Для меня является языком программирования
+для начинающих, не несущих дальнейших ценностей в становлении программиста.
+Лучше возьмите Java, C, JS или Python для изучения, с ними вы хоть работу
+интересную найдете&lt;/p&gt;
+&lt;h2&gt;9. Assembly Language&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-x86asm&quot;&gt;&lt;code class=&quot;language-x86asm&quot;&gt;.model small
+.stack 100h
+
+.data
+msg	db	&amp;#39;Hello world!$&amp;#39;
+
+.code
+start:
+	mov	ah, 09h   ; Display the message
+	lea	dx, msg
+	int	21h
+	mov	ax, 4C00h  ; Terminate the executable
+	int	21h
+end start&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Ассемблер позволяет писать код напрямую для процессора, без использования языков
+программирования. Хоть ассемблер и является языком, но считать за язык его
+сложно из-за эквивалентности его&lt;/p&gt;
+&lt;p&gt;Советую начинать изучать после основ системного программирования (язык C для
+начала).&lt;/p&gt;
+&lt;h2&gt;10. Ruby&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;puts &lt;span class=&quot;token string&quot;&gt;&apos;Hello, world!&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Популярность данный язык получил благодоря чудесному фреймворку Ruby on Rails.
+Изучать возможно стоит, если планируется работать с данным фреймворкам. Хотя
+судя по трендам, сейчас идет отток Ruby-программистов. Многие переходят
+на что-то другое. Слышал много рубистов перешли на Elixir.&lt;/p&gt;
+&lt;h2&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;В качестве заключения, хочу сказать, что выбирать язык программирования сложно,
+необходимо смотреть на задачи, которые вы им будете решать. Или смотреть на
+используемые стеки в вакансиях, которые вам хочется занять.&lt;/p&gt;
+&lt;p&gt;Не ограничивайтесь языками, представленными здесь! Есть много прекрасных языков.&lt;/p&gt;
+&lt;p&gt;Точного могу сказать, что есть тренды отхода от ООП в сторону ФП. Поэтому стоит
+изучать функциональные языки, ради общего развития как специалиста. Но не стоит
+останавливаться на одном языке, изучайте всегда новые технологии,
+не применяйте их на боевых проектах, пробуйте их на домашних.&lt;/p&gt;
+&lt;p&gt;На этом у меня все! До новых встреч!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Привет мир!]]></title><description><![CDATA[Hello world В среде программистов принято, начинать любое знакомство с новым языком
+программирования с написания первой программы которая…]]></description><link>http://orlov-vo.ru//posts/hello-world/</link><guid isPermaLink="false">http://orlov-vo.ru//posts/hello-world/</guid><pubDate>Thu, 12 Oct 2017 13:14:04 GMT</pubDate><content:encoded>&lt;p&gt;&lt;div&gt;
+          &lt;a
+            class=&quot;gatsby-resp-image-link&quot;
+            title=&quot;original image&quot;
+            href=&quot;/static/hello-world-66e402083687bbd8425564b7e3ebddf0-98302.jpg&quot;
+            style=&quot;display: block&quot;
+            target=&quot;_blank&quot;
+          &gt;
+            &lt;div
+              class=&quot;gatsby-resp-image-wrapper&quot;
+              style=&quot;position: relative; z-index: -1; &quot;
+            &gt;
+              &lt;div
+                class=&quot;gatsby-resp-image-background-image&quot;
+                style=&quot;padding-bottom: 75%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABxIcsUWE//8QAGhABAAMAAwAAAAAAAAAAAAAAAQACEQMSIf/aAAgBAQABBQIop0YmJyAN9nk//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQIHAAAAAAAAAAAAAAAAAAIRARAhMjNBcf/aAAgBAQAGPwJ6GhjGmPS1Mv/EABwQAAICAgMAAAAAAAAAAAAAAAABEXEhQVFhkf/aAAgBAQABPyHKHoTEnt2TTRjghlpBGhSKtUf/2gAMAwEAAgADAAAAEAP/AP/EABYRAQEBAAAAAAAAAAAAAAAAAAARcf/aAAgBAwEBPxDFf//EABcRAQADAAAAAAAAAAAAAAAAAAABEWH/2gAIAQIBAT8QjVP/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFRYaGx/9oACAEBAAE/EAAMS6SMsgDSz3WoqhOyrIyN7kL9jGp1TLeXxlj3P//Z&apos;); background-size: cover;&quot;
+              &gt;
+                &lt;img
+                  class=&quot;gatsby-resp-image-image&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  alt=&quot;&quot;
+                  title=&quot;&quot;
+                  src=&quot;/static/hello-world-66e402083687bbd8425564b7e3ebddf0-bb5a2.jpg&quot;
+                  srcset=&quot;/static/hello-world-66e402083687bbd8425564b7e3ebddf0-554d9.jpg 163w,/static/hello-world-66e402083687bbd8425564b7e3ebddf0-47899.jpg 325w,/static/hello-world-66e402083687bbd8425564b7e3ebddf0-bb5a2.jpg 650w,/static/hello-world-66e402083687bbd8425564b7e3ebddf0-98302.jpg 720w&quot;
+                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+          &lt;/div&gt;&lt;/p&gt;
+&lt;h1&gt;Hello world&lt;/h1&gt;
+&lt;p&gt;В среде программистов принято, начинать любое знакомство с новым языком
+программирования с написания первой программы которая выводит “Hello world!“.
+Я хочу последовать этому и начать свой блог со знакомства.&lt;/p&gt;
+&lt;p&gt;Сразу скажу: Да, это не первый мой блог, но надеюсь он проживет дольше своих
+собратьев и избежит участи попасть в клоаку забытых сайтов.&lt;/p&gt;
+&lt;h2&gt;Обо мне&lt;/h2&gt;
+&lt;p&gt;Итак, меня зовут Владислав. На момент написания этой заметки мне 22 года, я
+окончил &lt;a href=&quot;http://sibsutis.ru&quot;&gt;Сибирский Государственный Институт Телекоммуникаций и Информатики&lt;/a&gt;,
+факультет “Информатика и Вычислительная техника”, направление:
+“Вычислительные машины, комплексы и сети” со званием Бакалавра. Отслужил при
+военной кафедре, получив звание Сержанта связи ВС РФ.&lt;/p&gt;
+&lt;p&gt;Будучи еще студентом, начал профессионально заниматься разработкой веб-сайтов на
+различных технологических стеках. В основном использовали WordPress, 1C-Битрикс,
+либо микро-сервисы. Front-end эволюционировал в ногу с мировой практикой, есть
+опыт работы с React, Angular 2/4.&lt;/p&gt;
+&lt;p&gt;Я с уверенностью могу заявить, что моего багажа знаний хватает для того, чтобы
+писать одновременно компоненты как на клиенте (веб-браузеры), так и на сервере.&lt;/p&gt;
+&lt;p&gt;В свободное время всегда стараюсь изучать что-то новое, опробовать это на
+pet-проектах. Такая практика самообучения у меня идет со школы, когда я впервые
+узнал о том, что сделать свой личный сайт не так уж и сложно.&lt;/p&gt;
+&lt;h2&gt;Что я буду писать&lt;/h2&gt;
+&lt;p&gt;В этом блоге я планирую писать познавательные заметки связанные как с работой,
+так и с жизнью в целом. Буду делиться уроками и советами по созданию сайтов.
+Я думаю это будет полезно как новичкам, так и продвинутым программистам.&lt;/p&gt;
+&lt;p&gt;До встречи, мой друг!&lt;/p&gt;</content:encoded></item></channel></rss>
