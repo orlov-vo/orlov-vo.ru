@@ -1,12 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Import typefaces
-import 'typeface-montserrat';
-import 'typeface-merriweather';
-
 import profilePic from './profile-pic.jpg';
-import { rhythm } from '../utils/typography';
 
 class Bio extends React.Component {
   render() {
@@ -32,24 +27,27 @@ class Bio extends React.Component {
 
 const Wrapper = styled.div`
   display: flex;
-  margin-bottom: ${rhythm(2.5)};
+  margin-bottom: 2.5rem;
+  align-items: center;
 `;
 
 const Avatar = styled.img`
-  margin-right: ${rhythm(1 / 2)};
+  margin-right: 1rem;
   margin-bottom: 0;
-  width: ${rhythm(2)};
-  height: ${rhythm(2)};
-  border-radius: ${rhythm(2)};
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
 `;
 
-const Content = styled.div``;
+const Content = styled.div`
+  font-size: 0.8rem;
+`;
 
 const BlogDescription = styled.div``;
 
 const SocialNavigation = styled.nav`
   a {
-    margin-right: ${rhythm(1 / 4)};
+    margin-right: 0.25rem;
   }
 `;
 

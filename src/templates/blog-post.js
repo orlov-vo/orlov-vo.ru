@@ -1,18 +1,19 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
-import get from 'lodash/get';
+import idx from 'idx';
 import ReactDisqusComments from 'react-disqus-comments';
+import styled from 'styled-components';
 
-import Bio from '../components/Bio';
-import { rhythm, scale } from '../utils/typography';
+import Bio from 'components/Bio';
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark;
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const post = idx(this.props, _ => _.data.markdownRemark);
+    const siteTitle = idx(this.props, _ => _.data.site.siteMetadata.title);
     const { previous, next } = this.props.pathContext;
 
+    const slug = idx(post, _ => _.fields.slug);
     const title = post.frontmatter.title;
 
     const navigation = (
@@ -46,26 +47,13 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${title} | ${siteTitle}`} />
-        <h1>{title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <Title>{title}</Title>
+        <DateTime>{post.frontmatter.date}</DateTime>
 
         <img src={post.frontmatter.thumbnail} />
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <EndLine />
         <Bio />
 
         {navigation}
@@ -82,6 +70,20 @@ class BlogPostTemplate extends React.Component {
     );
   }
 }
+
+const Title = styled.h1`
+  line-height: 1.2;
+`;
+
+const DateTime = styled.p`
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+`;
+
+const EndLine = styled.hr`
+  margin-bottom: 1rem;
+`;
 
 export default BlogPostTemplate;
 
