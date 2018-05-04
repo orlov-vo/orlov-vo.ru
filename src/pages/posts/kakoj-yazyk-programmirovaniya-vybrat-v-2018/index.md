@@ -1,6 +1,7 @@
 ---
 title: Какой язык программирования выбрать в 2018 году
 date: 2017-10-19 09:55:30
+published: true
 thumbnail: kakoj-yazyk-programmirovaniya-vybrat-v-2018.jpg
 tags:
 - программирование

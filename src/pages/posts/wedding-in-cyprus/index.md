@@ -1,6 +1,7 @@
 ---
 title: Свадьба на Кипре - как это устроить? Наша история.
 date: 2018-04-23 15:47:11
+published: true
 thumbnail: Olesya_Vlad_023.jpg
 tags:
 - жизнь

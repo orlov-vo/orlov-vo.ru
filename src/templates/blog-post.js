@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import idx from 'idx';
 import ReactDisqusComments from 'react-disqus-comments';
 import styled from 'styled-components';
+import urlJoin from 'url-join';
 
 import Bio from 'components/Bio';
 
@@ -13,6 +14,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = idx(this.props, _ => _.data.site.siteMetadata.title);
     const { previous, next } = this.props.pathContext;
 
+    const siteUrl = idx(this.props, _ => _.data.site.siteMetadata.siteUrl);
     const slug = idx(post, _ => _.fields.slug);
     const title = post.frontmatter.title;
 
@@ -44,6 +46,8 @@ class BlogPostTemplate extends React.Component {
       </ul>
     );
 
+    console.log(urlJoin(siteUrl, slug));
+
     return (
       <div>
         <Helmet title={`${title} | ${siteTitle}`} />
@@ -62,7 +66,7 @@ class BlogPostTemplate extends React.Component {
           shortname="orlov-vo"
           identifier={post.id}
           title={title}
-          url="http://www.example.com/example-thread"
+          url={urlJoin(siteUrl, slug)}
         />
 
         {navigation}
@@ -93,11 +97,15 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY", locale: "ru")

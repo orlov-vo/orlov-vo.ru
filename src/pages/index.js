@@ -44,7 +44,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: {
+        frontmatter: { published: { eq: true } }
+        fields: { slug: { regex: "/^/posts/i" } }
+      }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
@@ -56,7 +62,7 @@ export const pageQuery = graphql`
             title
             thumbnail {
               childImageSharp {
-                responsiveResolution(width: 200, height: 180, quality: 90, cropFocus: CENTER) {
+                responsiveResolution(width: 200, height: 220, quality: 90, cropFocus: CENTER) {
                   base64
                   src
                   srcSet

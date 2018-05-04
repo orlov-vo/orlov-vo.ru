@@ -1,6 +1,7 @@
 ---
 title: IT-иммиграция на Кипр в Лимассол из столицы Сибири
 date: 2017-12-16 15:47:11
+published: true
 thumbnail: limassol.jpg
 tags:
 - миграция

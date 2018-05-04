@@ -1,6 +1,7 @@
 ---
 title: В поисках нового языка для изучения или почему я выбрал ReasonML
 date: 2017-11-16 13:08:24
+published: true
 thumbnail: reasonml.png
 tags:
 - reasonml
