@@ -71,7 +71,7 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props;
 
-    const isHeaderBig = location.pathname === route('/') || location.pathname === route('/posts/');
+    const isHeaderBig = [route('/'), route('/posts/'), route('/posts')].includes(location.pathname);
     const HomeTitle = isHeaderBig ? BigTitle : Title;
 
     return (

@@ -19,9 +19,13 @@ class BlogPosts extends React.Component {
           const title = idx(node, _ => _.frontmatter.title) || slug;
           const date = idx(node, _ => _.frontmatter.date);
           const excerpt = idx(node, _ => _.excerpt);
+          const thumbnail = idx(
+            node,
+            _ => _.frontmatter.thumbnail.childImageSharp.responsiveResolution,
+          );
 
           return (
-            <PostShort key={slug} slug={slug} title={title} date={date}>
+            <PostShort key={slug} slug={slug} title={title} date={date} thumbnail={thumbnail}>
               {excerpt}
             </PostShort>
           );
@@ -50,6 +54,17 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY", locale: "ru")
             title
+            thumbnail {
+              childImageSharp {
+                responsiveResolution(width: 200, height: 180, quality: 90, cropFocus: CENTER) {
+                  base64
+                  src
+                  srcSet
+                  width
+                  height
+                }
+              }
+            }
           }
         }
       }

@@ -6,9 +6,7 @@ export function route(path) {
     return rootPath;
   }
 
-  return `${rootPath}${path[0] === '/' ? path.slice(1) : path}${
-    path[path.length - 1] === '/' ? '' : '/'
-  }`;
+  return `${rootPath}${path[0] === '/' ? path.slice(1) : path}`;
 }
 
 export default route;
