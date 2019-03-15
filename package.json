@@ -6,7 +6,7 @@
   "repository": "github:orlov-vo/orlov-vo.github.io",
   "license": "MIT",
   "scripts": {
-    "start": "hugo server",
+    "start": "hugo server --port 8000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "hugo",
     "deploy": "hugo && gh-pages -b master -d public"
