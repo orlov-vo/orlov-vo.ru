@@ -2,7 +2,8 @@
 /node_modules
 
 # production
-/public
+dist/
+data/webpack.json
 stats.json
 
 # testing

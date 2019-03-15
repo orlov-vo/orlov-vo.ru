@@ -1,13 +1,13 @@
 language: node_js
 
 os:
-  - linux
-  - osx
+    - linux
+    - osx
 
 node_js:
-  - "node"
-  - "lts/*"
+    - 'node'
+    - 'lts/*'
 
 script:
-  - npm ci
-  - npm run lint
+    - npm ci
+    - npm run lint

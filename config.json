@@ -1,6 +1,8 @@
 {
-    "baseURL": "https://orlov-vo.ru/",
+    "baseURL": "/",
+    "languageLang": "ru",
     "languageCode": "ru-ru",
     "title": "Vladislav Orlov’s blog - orlov-vo.ru",
-    "description": "Personal blog of frontend developer who lives and works in Cyprus."
+    "description": "Personal blog of frontend developer who lives and works in Cyprus.",
+    "disableKinds": ["RSS", "taxonomy", "taxonomyTerm"]
 }

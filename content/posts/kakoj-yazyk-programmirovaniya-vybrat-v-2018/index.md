@@ -4,8 +4,8 @@ date: 2017-10-19 09:55:30
 draft: false
 thumbnail: kakoj-yazyk-programmirovaniya-vybrat-v-2018.jpg
 tags:
-- программирование
-- рейтинг
+    - программирование
+    - рейтинг
 ---
 
 ![](kakoj-yazyk-programmirovaniya-vybrat-v-2018.jpg)

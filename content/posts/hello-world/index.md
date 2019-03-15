@@ -4,7 +4,7 @@ date: 2017-10-12 13:14:04
 draft: false
 thumbnail: hello-world.jpg
 tags:
-- история
+    - история
 ---
 
 ![](hello-world.jpg)
