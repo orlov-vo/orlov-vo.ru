@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2018/04/wedding-in-cyprus/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/12/it-migration-to-cyprus/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/10/kakoj-yazyk-programmirovaniya-vybrat-v-2018/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/10/hello-world/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about-me/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cv/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/cv/"
+                />
+  </url>
+  
+</urlset>
