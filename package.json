@@ -22,7 +22,8 @@
         "build:hugo:preview": "npm run build:hugo -- -D -F",
         "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
         "fmt": "prettier --write 'src/**/*.{js,css}' 'content/**/*.md' '*.{js,json}'",
-        "deploy": "npm run build && gh-pages -b master -d dist"
+        "deploy": "npm run build && gh-pages -b master -d dist",
+        "deploy-only": "gh-pages -b master -d dist"
     },
     "devDependencies": {
         "@babel/core": "^7.3.4",
