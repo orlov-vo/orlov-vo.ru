@@ -1,9 +1,35 @@
-<section class="container page">
-    <article>
-      <header>
-        <h1>{{ .Title }}</h1>
-      </header>
+<article class="l-container b-post">
+    <header class="b-post__header">
+        <h1 class="b-post__title">{{ .Title }}</h1>
 
-      {{ .Content }}
-    </article>
-  </section>
+        {{ if not .Date.IsZero }}
+        {{ $datetime := .Date.Format " 2006-01-02T15:04:05Z07:00 " | safeHTML }}
+        <time class="b-post__date" datetime="{{ $datetime }}">
+            {{ .Date.Day }} {{ index $.Site.Data.months (printf "%d" .Date.Month) }}
+            {{ .Date.Year }}
+        </time>
+        {{ end }}
+
+        {{ if .IsTranslated }}
+        <nav class="b-post__translations">
+            Languages:
+            {{ range.Translations }}
+            <a href="{{ .Permalink }}">{{ .Language.Params.name }}</a>
+            {{ end }}
+        </nav>
+        {{ end }}
+    </header>
+
+    {{ .Content }}
+
+    <footer class="b-post__footer">
+        {{ $allPosts := relref . "posts" }}
+        <a href="{{ $allPosts }}">Смотреть другие записи в блоге...</a>
+    </footer>
+</article>
+
+{{ if eq .Type "posts" }}
+<section class="l-container b-comments">
+    {{ template "_internal/disqus.html" . }}
+</section>
+{{ end }}

@@ -1,19 +1,43 @@
-<section class="container list">
-    <h1 class="title">
-      {{- if eq .Kind "taxonomy" -}}
-        {{- i18n .Data.Singular | title -}}
-        {{- print ": " -}}
-      {{- end -}}
-
-      {{- .Title -}}
+<section class="l-container">
+    <h1>
+        {{- if eq .Kind "taxonomy" -}} {{- i18n .Data.Singular | title -}} {{- print ": " -}}
+        {{- end -}} {{- .Title -}}
     </h1>
-    <ul>
-      {{ range .Paginator.Pages }}
-      <li>
-        <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-        <a class="title" href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
+    <ul class="b-post-list-short">
+        <!-- prettier-ignore -->
+        {{ range .Paginator.Pages }}
+        <li class="b-post-list-short__item">
+            {{ $res := .Resources.GetMatch .Params.thumbnail }}
+            {{ if $res }}
+            {{ $thumb := $res.Fill "160x120 q80"}}
+
+            <div class="b-post-list-short__thumbnail">
+                <a class="invisible-link" href="{{ .RelPermalink }}">
+                    <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" />
+                </a>
+            </div>
+            {{ end }}
+
+            <div class="b-post-list-short__content">
+                <div class="b-post-list-short__date">
+                    {{ if .IsDraft }}
+                    Черновик
+                    {{ else }}
+                    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+                    {{ end }}
+                </div>
+                <div class="b-post-list-short__title">
+                    <a href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a>
+                </div>
+
+                <div class="b-post-list-short__summary">
+                    {{ .Summary }}
+                </div>
+            </div>
+        </li>
+        <!-- prettier-ignore -->
+        {{ end }}
     </ul>
+
     {{ partial "pagination.html" . }}
-  </section>
+</section>

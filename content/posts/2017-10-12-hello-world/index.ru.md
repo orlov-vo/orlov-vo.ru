@@ -1,13 +1,14 @@
 ---
 title: Привет мир!
-date: 2017-10-12 13:14:04
+slug: hello-world
+date: 2017-10-12
 draft: false
 thumbnail: hello-world.jpg
 tags:
     - история
 ---
 
-![](hello-world.jpg)
+{{< respic src="hello-world.jpg" >}}
 
 # Hello world
 

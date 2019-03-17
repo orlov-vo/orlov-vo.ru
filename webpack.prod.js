@@ -7,27 +7,27 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
-  mode: 'production',
+    mode: 'production',
 
-  output: {
-    filename: '[name].[hash:5].js',
-    chunkFilename: '[id].[hash:5].css',
-  },
+    output: {
+        filename: '[name].[contenthash:5].js',
+        chunkFilename: '[id].[contenthash:5].css',
+    },
 
-  optimization: {
-    minimizer: [
-      new TerserPlugin({
-        cache: true,
-        parallel: true,
-        sourceMap: true,
-      }),
+    optimization: {
+        minimizer: [
+            new TerserPlugin({
+                cache: true,
+                parallel: true,
+                sourceMap: true,
+            }),
 
-      new MiniCssExtractPlugin({
-        filename: '[name].[hash:5].css',
-        chunkFilename: '[id].[hash:5].css',
-      }),
+            new MiniCssExtractPlugin({
+                filename: '[name].[contenthash:5].css',
+                chunkFilename: '[id].[contenthash:5].css',
+            }),
 
-      new OptimizeCSSAssetsPlugin({}),
-    ],
-  },
+            new OptimizeCSSAssetsPlugin({}),
+        ],
+    },
 });

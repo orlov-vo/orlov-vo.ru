@@ -1,6 +1,7 @@
 ---
 title: IT-иммиграция на Кипр в Лимассол из столицы Сибири
-date: 2017-12-16 15:47:11
+slug: it-migration-to-cyprus
+date: 2017-12-16
 draft: false
 thumbnail: limassol.jpg
 tags:
@@ -10,7 +11,7 @@ tags:
     - кипр
 ---
 
-![](limassol.jpg)
+{{< respic src="limassol.jpg" >}}
 
 Привет тебе мой друг из самой южной страны Европы, Республики Кипр.
 

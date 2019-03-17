@@ -1,6 +1,7 @@
 ---
 title: В поисках нового языка для изучения или почему я выбрал ReasonML
-date: 2017-11-16 13:08:24
+slug: v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml
+date: 2017-11-16
 draft: false
 thumbnail: reasonml.png
 tags:
@@ -8,7 +9,7 @@ tags:
     - фп
 ---
 
-![](reasonml.png)
+{{< respic src="reasonml.png" >}}
 
 В жизни программиста наступают такие моменты, когда ты осознаешь потребность в изучении чего-то
 нового. Это может быть что угодно: новая библиотека, фреймворк или язык программирования.

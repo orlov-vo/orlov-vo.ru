@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-        <title>{{ $.Site.Title }}</title>
-
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        {{ if .IsHome }}
+        <title>{{ .Site.Title }}</title>
+        {{ else }}
+        <title>{{ .Title }} - {{ .Site.Title }}</title>
+        <!-- prettier-ignore -->
+        {{ end }}
+        <link rel="shortcut icon" href="/favicon.png" />
         {{ $stylesheet := .Site.Data.webpack.main }}
         {{ with $stylesheet.css }}
-            <link href="{{ relURL . }}" rel="stylesheet">
+        <link href="{{ relURL . }}" rel="stylesheet" />
+        <!-- prettier-ignore -->
         {{ end }}
     </head>
 
-
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
-            {{- block "content" . }}{{- end }}
-        </div>
+        <div id="content">{{- block "content" . -}}{{ end }}</div>
         {{- partial "footer.html" . -}}
 
         {{ $script := .Site.Data.webpack.main }}
         {{ with $script.js }}
-          <script src="{{ relURL . }}"></script>
+        <script src="{{ relURL . }}"></script>
         {{ end }}
     </body>
 </html>

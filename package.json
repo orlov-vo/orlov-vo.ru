@@ -8,6 +8,7 @@
     "browserslist": "last 2 versions",
     "scripts": {
         "lint": "eslint src",
+        "clean": "rimraf dist/ && rm data/webpack.json",
         "start": "run-p start:**",
         "start:hugo": "hugo -d ./dist -vw",
         "start:webpack": "webpack-dev-server --config webpack.dev.js",
@@ -20,6 +21,7 @@
         "build:hugo": "hugo -d ./dist -v",
         "build:hugo:preview": "npm run build:hugo -- -D -F",
         "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+        "fmt": "prettier --write 'src/**/*.{js,css}' 'content/**/*.md' '*.{js,json}'",
         "deploy": "npm run build && gh-pages -b master -d dist"
     },
     "devDependencies": {
@@ -29,7 +31,7 @@
         "babel-eslint": "^10.0.1",
         "babel-loader": "^8.0.5",
         "clean-webpack-plugin": "^2.0.1",
-        "copy-webpack-plugin": "^5.0.1",
+        "core-js": "^2.6.5",
         "cross-env": "^5.2.0",
         "css-loader": "^2.1.1",
         "eslint": "^5.15.1",
@@ -44,6 +46,7 @@
         "postcss-import": "^12.0.1",
         "postcss-loader": "^3.0.0",
         "postcss-preset-env": "^6.6.0",
+        "prettier": "^1.16.4",
         "rimraf": "^2.6.3",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",
