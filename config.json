@@ -7,7 +7,7 @@
     "description": "Личный сайт фронтенд разработчика, который живет на Кипре.",
     "disableKinds": ["RSS", "taxonomy", "taxonomyTerm"],
     "permalinks": {
-        "posts": "/:year/:month/:slug/"
+        "posts": "/:year/:slug/"
     },
     "blackfriday": {
         "hrefTargetBlank": true

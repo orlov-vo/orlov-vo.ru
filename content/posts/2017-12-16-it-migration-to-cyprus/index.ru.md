@@ -4,6 +4,7 @@ slug: it-migration-to-cyprus
 date: 2017-12-16
 draft: false
 thumbnail: limassol.jpg
+aliases: [/2017/12/16/it-migration-to-cyprus/]
 tags:
     - миграция
     - жизнь
