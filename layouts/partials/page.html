@@ -23,8 +23,7 @@
     {{ .Content }}
 
     <footer class="b-post__footer">
-        {{ $allPosts := relref . "posts" }}
-        <a href="{{ $allPosts }}">Смотреть другие записи в блоге...</a>
+        <a href="/posts/">Смотреть другие записи в блоге...</a>
     </footer>
 </article>
 
