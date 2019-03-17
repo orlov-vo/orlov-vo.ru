@@ -1,9 +1,5 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# [orlov-vo.ru](https://orlov-vo.ru)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+My personal blog. Created by [Hugo](https://gohugo.io/).
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`
+To run locally, `npm ci`, then `npm start`, then open https://localhost:8000.

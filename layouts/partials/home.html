@@ -1,0 +1,30 @@
+<div class="l-home-page">
+    <main class="l-container l-home-page__intro">
+        {{ .Content }}
+    </main>
+
+    <section class="l-container">
+        <h2>Мои последние записи</h2>
+
+        <ul class="b-post-list-short">
+            {{ range (.Paginate ( where .Pages "Type" "posts")).Pages }}
+            <li class="b-post-list-short__item">
+                <span class="b-post-list-short__date">
+                    {{ if .IsDraft }}
+                    Черновик
+                    {{ else }}
+                    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+                    {{ end }}
+                </span>
+                <span class="b-post-list-short__title"
+                    ><a href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a></span
+                >
+            </li>
+            <!-- prettier-ignore -->
+            {{ end }}
+        </ul>
+
+        {{ $allPosts := relref . "posts" }}
+        <a href="{{ $allPosts }}">Смотреть все записи в блоге...</a>
+    </section>
+</div>

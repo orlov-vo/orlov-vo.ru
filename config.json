@@ -1,0 +1,40 @@
+{
+    "baseURL": "/",
+    "DefaultContentLanguage": "ru",
+    "languageLang": "ru",
+    "languageCode": "ru-ru",
+    "title": "Владислав Орлов - orlov-vo.ru",
+    "description": "Личный сайт фронтенд разработчика, который живет на Кипре.",
+    "disableKinds": ["RSS", "taxonomy", "taxonomyTerm"],
+    "permalinks": {
+        "posts": "/:year/:month/:slug/"
+    },
+    "blackfriday": {
+        "hrefTargetBlank": true
+    },
+    "enableEmoji": true,
+    "enableGitInfo": true,
+    "pygmentsCodeFences": true,
+    "publishDir": "dist",
+    "disqusShortname": "orlov-vo",
+    "summaryLength": 30,
+    "params": {
+        "dateFormat": "02.01.2006",
+        "socials": [
+            { "name": "Twitter", "link": "https://twitter.com/orlov_vo" },
+            { "name": "GitHub", "link": "https://github.com/orlov-vo" },
+            { "name": "LinkedIn", "link": "https://linkedin.com/in/orlov-vo/" },
+            { "name": "Facebook", "link": "https://facebook.com/orlov.vo" },
+            { "name": "Telegram", "link": "https://t.me/orlov_vo" }
+        ]
+    },
+    "languages": {
+        "ru": {
+            "name": "Русский"
+        },
+        "en": {
+            "name": "English",
+            "title": "Vladislav Orlov - orlov-vo.ru"
+        }
+    }
+}

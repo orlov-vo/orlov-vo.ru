@@ -1,0 +1,22 @@
+<header class="l-container l-header">
+    <a href="/" class="invisible-link">
+        <img class="l-header__avatar" src="/profile-pic.jpg" alt="Владислав Орлов" />
+
+        <author class="l-header__author">Владислав Орлов</author>
+    </a>
+
+    <p class="l-header__description">
+        Фронтенд разработчик, живущий на Кипре
+    </p>
+
+    <nav class="l-header__nav">
+        {{ $isNotFirstSocialLink := false }}
+        {{ range.Site.Params.socials }}
+        {{ if $isNotFirstSocialLink }}
+        ‧
+        {{ end }}
+        <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+        {{ $isNotFirstSocialLink = true }}
+        {{ end }}
+    </nav>
+</header>

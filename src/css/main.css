@@ -1,0 +1,10 @@
+/*
+  You can use import statements to include partials:
+ */
+
+@import './normalize.css';
+@import './variables.css';
+@import './typography.css';
+@import './layout.css';
+@import './blocks/post-list-short.css';
+@import './blocks/post.css';

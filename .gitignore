@@ -1,13 +1,10 @@
-# gatsby
-.gatsby-context.js
-.cache/
-.intermediate-representation/
-
 # dependencies
 /node_modules
 
 # production
-/public
+dist/
+data/webpack.json
+resources/_gen/
 stats.json
 
 # testing
@@ -18,10 +15,6 @@ junit.xml
 .DS_Store
 .vscode
 /.idea
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # logs
 npm-debug.log*
