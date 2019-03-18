@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background-color: white;
     color: var(--normal-color);
+    overflow-x: hidden;
 }
 
 a {
