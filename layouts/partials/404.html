@@ -1,7 +1,8 @@
-<section class="container centered">
-    <div class="error">
-      <h1>404</h1>
-      <h2>{{ i18n "page_not_found" }}</h2>
-      <p>{{ i18n "page_does_not_exist" }}<br />{{ i18n "head_back" .Site.BaseURL | safeHTML }}</p>
-    </div>
-  </section>
+<section class="l-container">
+    <h1>404. {{ i18n "page_not_found" }}</h1>
+    <p>
+        {{ i18n "page_does_not_exist" }}
+        <br />
+        {{ i18n "head_back" .Site.BaseURL | safeHTML }}
+    </p>
+</section>

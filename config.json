@@ -2,7 +2,7 @@
     "baseURL": "/",
     "DefaultContentLanguage": "ru",
     "languageLang": "ru",
-    "languageCode": "ru-ru",
+    "languageCode": "ru-RU",
     "title": "Владислав Орлов - orlov-vo.ru",
     "description": "Личный сайт фронтенд разработчика, который живет на Кипре.",
     "disableKinds": ["RSS", "taxonomy", "taxonomyTerm"],
