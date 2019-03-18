@@ -51,6 +51,12 @@
     margin: 0;
 }
 
+.b-post .highlight pre {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: var(--img-radius);
+}
+
 @media (min-width: 480px) {
     .b-post {
         font-size: 1.1rem;
