@@ -4,7 +4,11 @@ slug: v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml
 date: 2017-11-16
 draft: false
 thumbnail: reasonml.png
-aliases: [/2017/11/16/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/]
+aliases:
+    [
+        /2017/11/16/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/,
+        /posts/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/,
+    ]
 tags:
     - reasonml
     - фп

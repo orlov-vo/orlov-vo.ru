@@ -4,7 +4,7 @@ slug: wedding-in-cyprus
 date: 2018-04-23
 draft: false
 thumbnail: Olesya_Vlad_023.jpg
-aliases: [/2018/04/23/wedding-in-cyprus/]
+aliases: [/2018/04/23/wedding-in-cyprus/, /posts/wedding-in-cyprus/]
 tags:
     - жизнь
     - кипр

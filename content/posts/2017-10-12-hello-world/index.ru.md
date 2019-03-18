@@ -4,7 +4,7 @@ slug: hello-world
 date: 2017-10-12
 draft: false
 thumbnail: hello-world.jpg
-aliases: [/2017/10/12/hello-world/]
+aliases: [/2017/10/12/hello-world/, /posts/hello-world/]
 tags:
     - история
 ---

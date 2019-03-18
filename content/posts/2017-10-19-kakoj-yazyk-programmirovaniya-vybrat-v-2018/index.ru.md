@@ -4,7 +4,11 @@ slug: kakoj-yazyk-programmirovaniya-vybrat-v-2018
 date: 2017-10-19
 draft: false
 thumbnail: kakoj-yazyk-programmirovaniya-vybrat-v-2018.jpg
-aliases: [/2017/10/19/kakoj-yazyk-programmirovaniya-vybrat-v-2018/]
+aliases:
+    [
+        /2017/10/19/kakoj-yazyk-programmirovaniya-vybrat-v-2018/,
+        /posts/kakoj-yazyk-programmirovaniya-vybrat-v-2018/,
+    ]
 tags:
     - программирование
     - рейтинг
