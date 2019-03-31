@@ -3,14 +3,27 @@
     line-height: 1.5;
 }
 
+.b-post__header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
 .b-post__title {
     font-size: 2em;
     line-height: 1.2;
+    flex: 1 0 100%;
+    margin-bottom: 0.5rem;
 }
 
-.b-post__date {
-    margin-top: -1rem;
-    display: block;
+.b-post__date,
+.b-post__duration {
+    min-width: 10rem;
+    color: var(--soft-color);
+}
+
+.b-post__translations {
+    flex: 1 0 100%;
     color: var(--soft-color);
 }
 
@@ -55,6 +68,13 @@
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: var(--img-radius);
+    overflow-x: auto;
+}
+
+.b-post .instagram-media,
+.b-post .instagram-media-registered {
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 @media (min-width: 480px) {

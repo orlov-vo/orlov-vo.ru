@@ -36,12 +36,37 @@
     margin: 0;
 }
 
+.l-home-page__nav {
+    margin: -1em 0 1em;
+}
+
 .l-home-page__intro {
-    font-size: 1.05rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.l-home-page__photo {
+    flex: 0 1 auto;
+    margin-top: 1rem;
+}
+
+.l-home-page__photo img {
+    display: block;
+    border-radius: var(--img-radius);
+    margin: 0 auto;
+}
+
+.l-home-page__content {
+    flex: 1 1 auto;
 }
 
 @media (min-width: 600px) {
     .l-home-page__intro {
-        font-size: 1.2rem;
+        flex-direction: row;
+    }
+
+    .l-home-page__photo {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 }

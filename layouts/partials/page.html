@@ -10,9 +10,13 @@
         </time>
         {{ end }}
 
+        {{ if eq .Type "posts" }}
+        <span class="b-post__duration">{{ math.Ceil (div .WordCount 120) }} мин. чтения</span>
+        {{ end }}
+
         {{ if .IsTranslated }}
         <nav class="b-post__translations">
-            Languages:
+            Available in translations:
             {{ range.Translations }}
             <a href="{{ .Permalink }}">{{ .Language.Params.name }}</a>
             {{ end }}
@@ -22,9 +26,11 @@
 
     {{ .Content }}
 
+    {{ if eq .Type "posts" }}
     <footer class="b-post__footer">
         <a href="/posts/">Смотреть другие записи в блоге...</a>
     </footer>
+    {{ end }}
 </article>
 
 {{ if eq .Type "posts" }}

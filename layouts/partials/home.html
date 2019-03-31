@@ -1,9 +1,35 @@
-<div class="l-home-page">
-    <main class="l-container l-home-page__intro">
-        {{ .Content }}
+<div class="l-home-page l-container">
+    <h1>{{ .Title }}</h1>
+
+    <nav class="l-home-page__nav">
+        {{ $isNotFirstSocialLink := false }}
+        {{ range.Site.Params.socials }}
+        {{ if $isNotFirstSocialLink }}
+        ‧
+        {{ end }}
+        <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+        {{ $isNotFirstSocialLink = true }}
+        {{ end }}
+    </nav>
+
+    <main class="l-home-page__intro">
+        {{ if .Params.photo }}
+        {{ $res := .Resources.GetMatch .Params.photo }}
+        {{ if $res }}
+        {{ $thumb := $res.Fill "252x306 q80"}}
+
+        <div class="l-home-page__photo">
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" />
+        </div>
+        {{ end }}
+        {{ end }}
+
+        <div class="l-home-page__content b-post">
+            {{ .Content }}
+        </div>
     </main>
 
-    <section class="l-container">
+    <section>
         <h2>Мои последние записи</h2>
 
         <ul class="b-post-list-short">

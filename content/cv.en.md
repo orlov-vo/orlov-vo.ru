@@ -1,14 +1,16 @@
 ---
-title: 'CV: Vladislav Orlov - Senior frontend developer'
+title: 'Senior frontend developer'
 ---
+
+## Vladislav Orlov
 
 |              |                                                                       |
 | ------------ | --------------------------------------------------------------------- |
 | Keywords:    | React, React Native, Redux, TypeScript, Node.js                       |
 | Location:    | Cyprus, Limassol (UTC+3) (willing to relocate)                        |
 | Citizenship: | Russian Federation                                                    |
+| Status:      | Employed in Finteza Ltd                                               |
 | E-mail:      | me@orlov-vo.ru                                                        |
-| Phone:       | +357 95 765-857                                                       |
 | Socials:     | linkedin.com/in/orlov-vo/, github.com/orlov-vo, facebook.com/orlov.vo |
 | Employment:  | full time in office or remote                                         |
 
