@@ -18,6 +18,7 @@
     "publishDir": "dist",
     "disqusShortname": "orlov-vo",
     "summaryLength": 30,
+    "timeout": 30000,
     "params": {
         "dateFormat": "02.01.2006",
         "socials": [
