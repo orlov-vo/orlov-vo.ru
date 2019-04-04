@@ -1,0 +1,38 @@
+.b-feedback {
+    max-width: 500px;
+    padding: 1em 1.5em;
+    border-radius: var(--img-radius);
+    border: 1px solid var(--border-color);
+}
+
+.b-feedback__description {
+    margin: 0 0 1em;
+}
+
+.b-feedback__field {
+    display: block;
+    margin: 1em 0;
+}
+
+.b-feedback__control {
+    display: block;
+    width: 100%;
+    min-height: 2.5em;
+    padding: 0.5em;
+    border-radius: var(--img-radius);
+    border: 1px solid var(--border-color);
+    font-size: 0.9em;
+}
+
+.b-feedback__control:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.b-feedback__submit {
+    background: var(--primary-color);
+    color: white;
+    border-radius: var(--img-radius);
+    border: 0;
+    padding: 0.5em 1em;
+}
