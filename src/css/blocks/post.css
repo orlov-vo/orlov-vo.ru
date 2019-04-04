@@ -64,11 +64,29 @@
     margin: 0;
 }
 
-.b-post .highlight pre {
+.b-post code {
+    font-size: 0.9em;
+    background: #eee;
+    box-shadow: 0 0 0 0.1em #eee;
+    border-radius: 0.1em;
+    padding: 0 5px;
+}
+
+.b-post pre code {
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+}
+
+.b-post pre {
+    color: #f8f8f2;
+    background-color: #272822;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: var(--img-radius);
     overflow-x: auto;
+    tab-size: 4;
 }
 
 .b-post .instagram-media,
