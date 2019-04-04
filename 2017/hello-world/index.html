@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="/favicon.png" />
         
         
-        <link href="/main.dad71.css" rel="stylesheet" />
+        <link href="/main.c28e5.css" rel="stylesheet" />
         
         
     </head>
@@ -149,27 +149,26 @@
 </article>
 
 
-<section class="l-container b-comments">
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "orlov-vo" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<section class="l-container">
+    <div class="b-feedback">
+        <p class="b-feedback__description">Оставить отзыв или задать вопрос лично по email</p>
+
+        <form
+            class="b-feedback__form"
+            enctype="text/plain"
+            method="post"
+            action="mailto:feedback@orlov-vo.ru"
+        >
+            <label class="b-feedback__field">
+                Имя: <input class="b-feedback__control" type="text" name="name" />
+            </label>
+            <label class="b-feedback__field">
+                Текст:
+                <textarea class="b-feedback__control" rows="5" cols="30" name="message"></textarea>
+            </label>
+            <button class="b-feedback__submit" type="submit">Отправить</button>
+        </form>
+    </div>
 </section>
 
 
