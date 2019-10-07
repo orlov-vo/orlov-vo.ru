@@ -55,7 +55,7 @@ new technologies.
     1. Experience in configure of build tools (Webpack, Gulp.js);
     1. Advanced experience with CSS transpilers (SASS, LESS, PostCSS);
     1. Good understanding of browser rendering behavior and performance;
-    1. Experience with Node.js platform, frameworks and libraries (Express.js, Socket.IO, Logux);
+    1. Experience with Node.js platform, frameworks and libraries (Express, Koa, Nest, Logux);
     1. Good understanding of content management systems, such as Gatsby or classic CMS (Wordpress,
        MODx, Drupal);
 
