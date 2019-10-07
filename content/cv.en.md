@@ -12,7 +12,7 @@ title: 'Senior frontend developer'
 | Status:      | Employed in [MetaQuotes Ltd](https://www.metaquotes.net/en)           |
 | E-mail:      | me@orlov-vo.ru                                                        |
 | Socials:     | linkedin.com/in/orlov-vo/, github.com/orlov-vo, facebook.com/orlov.vo |
-| Employment:  | full time in office or remote                                         |
+| Employment:  | full time remote                                                      |
 
 ## Personal summary
 
