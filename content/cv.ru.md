@@ -4,20 +4,22 @@ title: 'Ведущий Frontend Разработчик'
 
 ## Орлов Владсилав Олегович
 
-|                  |                                                                       |
-| ---------------- | --------------------------------------------------------------------- |
-| Ключевые навыки: | JavaScript, TypeScript, Svelte, React, React Native, Redux, Node.js   |
-| Проживание:      | Кипр, Лимассол (UTC+3) (готов к переезду)                             |
-| Гражданство:     | Российская Федерация                                                  |
-| Раб. Статус:     | Трудоустроен в [MetaQuotes Ltd](https://www.metaquotes.net/ru)        |
-| E-mail:          | me@orlov-vo.ru                                                        |
-| Соц.сети:        | linkedin.com/in/orlov-vo/, github.com/orlov-vo, facebook.com/orlov.vo |
-| График:          | полный рабочий день удаленно                                          |
+|              |                                                                                        |
+| ------------ | -------------------------------------------------------------------------------------- |
+| Навыки:      | JavaScript, TypeScript, Svelte, React, React Native, Redux, Node.js                    |
+| Проживание:  | Кипр, Лимассол (UTC+3) (готов к переезду)                                              |
+| Гражданство: | Российская Федерация                                                                   |
+| Раб. Статус: | Трудоустроен в [MetaQuotes Ltd](https://www.metaquotes.net/ru)                         |
+| E-mail:      | [me@orlov-vo.ru](mailto:me@orlov-vo.ru)                                                |
+| Соц.сети:    | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [facebook.com/orlov.vo][fb] |
+| График:      | полный рабочий день удаленно                                                           |
 
 ## Краткое описание
 
 Специалист в области построения пользовательских веб-интерфейсов. Опытный разработчик воплощающий
 видение клиента и руковдства в реальность. Легко разбираюсь в современных инструментах и технологиях
+
+[**Пример моего кода - github:orlov-vo/preact-example-weather-app**](https://github.com/orlov-vo/preact-example-weather-app)
 
 ## Ключевые навыки и компетенции
 
@@ -35,8 +37,8 @@ title: 'Ведущий Frontend Разработчик'
     1. Быстро само-обучаюсь новым технологиям и языкам программирования (JS, PHP, C/C++,
        Erlang/Elixir, Rust);
     1. Понимаю ООП и ФП, склоняюсь больше ко второму;
-    1. Опыт построения баз данных на SQL, NoSQL (MySQL, MariaDB, PostgreSQL, MongoDB)
-       и использования PostgREST;
+    1. Опыт построения баз данных на SQL, NoSQL (MySQL, MariaDB, PostgreSQL, MongoDB) и
+       использования PostgREST;
     1. Навыки системного администрирования серверов;
 
 1. Глубокие навыки разработки фронтенда:
@@ -62,55 +64,55 @@ _Декабрь 2018 — настоящее время_
 
 **Senior frontend developer** в [MetaQuotes Ltd](https://www.metaquotes.net/ru)
 
-* Implement new business features
-* Migrate codebase to ESnext from ES5+AMD
-* Introduce Svelte 3 as main framework
-* Build flexible frontend router
+-   Реализация бизнес требований в код
+-   Мигрирование кодобазы на ESnext с ES5+AMD
+-   Внедрение Svelte 3 как основного фреймворка
+-   Построение гибкого маршрутизатора на фронтенде
+-   Исследование поведений пользователей для улучшения борьбы против ботов
 
 _Ноябрь 2017 — Ноябрь 2018_
 
 **Senior frontend developer** в [Ortnec Services Ltd](https://ortnec.com/)
 
-* Implement new business features
-* Introduce typing system (Flow) to ES6 codebase
-* Teaching teammates in frontend stack
-* Support and development of project’s infrastructure
-* Creating own UI library based on Bootstrap with CSS-in-JS
-* Testing, debugging & documentation
+-   Разработка нового функционала
+-   Внедрение типизации (Flow) в ES6 кодобазу
+-   Обучение членов команды по фронтенду
+-   Поддержка и разработка инфраструктуры проектов
+-   Создание собственной UI библиотеки с нуля на основе Bootstrap и CSS-in-JS
 
 _Февраль 2016 — Май 2017_
 
 **Full-stack web-developer** в Студия релкамы и дизайна “WAX”
 
-* Creating new websites and editing exists
-* Business logic & database design
-* User interface design
-* Testing, debugging & documentation
+-   Создание новых сайтов и доработка существующих
+-   Написание бизнес логики и построение баз данных
+-   Дизайн пользовательских интерфейсов
+-   Тестирование и отладка сайтов, написание документации
 
 _Сентябрь 2013 — Январь 2016_
 
 **Middle web-developer** в Веб-студии “100idea.ru”
 
-* Creating new websites and editing exists
-* Business logic & database design
-* Testing, debugging & documentation
+-   Создание новых сайтов и доработка существующих
+-   Написание бизнес-логики и построения баз данных
+-   Тестирование сайтов, написание сопроводительной документации
 
 _Май 2012 — Июль 2013_
 
 **Веб-мастер** на фрилансе
 
-* Installation and configuration of various CMS: Wordpress, Joomla, MODx
-* Editing layout and scripts
-* Integration of modules and plugins
-* Configuring web-server (Apache, nginx) and DB
+-   Установка и настройка CMS: Wordpress, Joomla, MODx
+-   Правка верстки и скриптов
+-   Интеграция модулей и плагинов
+-   Настройка веб-серверов (Apache, nginx) и СУБД
 
 ## Мои домашние проекты
 
-1. [idxgen](https://github.com/orlov-vo/idxgen) - a simple generator of index files for ES-modules.
-2. [redux-promisify-action](https://github.com/orlov-vo/redux-promisify-action) - a redux's
-   middleware for transforming results of dispatched actions to promises
-3. [scrumex](https://github.com/orlov-vo/scrumex/tree/develop) - a flexible project management for a
-   Scrum methodology.
+1. [idxgen](https://github.com/orlov-vo/idxgen) - простой генератор index-файлов для ES-модулей.
+2. [redux-promisify-action](https://github.com/orlov-vo/redux-promisify-action) - Мидлваря для Redux
+   чтобы трансформировать результат действий в обещания
+3. [scrumex](https://github.com/orlov-vo/scrumex/tree/develop) - проект по созданию простого и
+   гибкого инструмента для управления проектами по Scrum методологии.
 
 ## Проекты в которых я работал
 
@@ -128,14 +130,19 @@ _Май 2012 — Июль 2013_
 
 ## Образование
 
-Сибирский Государственный Университет Телекомуникаций и Информатики,
-Бакалавр в Вычислительной технике (2013 — 2017)
+Сибирский Государственный Университет Телекомуникаций и Информатики, Бакалавр в Вычислительной
+технике (2013 — 2017)
 
 ## Хобби и интересы
 
-Main hobby for me is a developing applications for humans. Also I have favourite activities that
-aren’t connected with computers.I like snowboarding and swimming, but also I like passive activities
-as relax on a beach or go to picnic. I love travelling and exploring something.
+Осоновное хобби для меня разработка приложений для людей. Также я обожаю активности, которые не
+связаны с компьюетрами. Я люблю кататься на сноуборде и плавать в море, но также я непротив и
+пассивных активностей как полежать на пляже или поехать в горы на пикник. Яркие впечатления получаю
+от путешествий и исследований чего-либо
 
-I have been jump from the sky (above 4000 meters) with my wife, after that I think I don't scared by
-difficulties.
+Также я совершил прыжок с парашюта (примерно 4000 метров) с моей женойб после этого я не пугаюсь
+многим трудностям!
+
+[li]: https://linkedin.com/in/orlov-vo/
+[gh]: https://github.com/orlov-vo
+[fb]: https://facebook.com/orlov.vo

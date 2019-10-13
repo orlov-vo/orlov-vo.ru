@@ -4,21 +4,23 @@ title: 'Senior frontend developer'
 
 ## Vladislav Orlov
 
-|              |                                                                       |
-| ------------ | --------------------------------------------------------------------- |
-| Keywords:    | JavaScript, TypeScript, Svelte, React, React Native, Redux, Node.js   |
-| Location:    | Cyprus, Limassol (UTC+3) (willing to relocate)                        |
-| Citizenship: | Russian Federation                                                    |
-| Status:      | Employed in [MetaQuotes Ltd](https://www.metaquotes.net/en)           |
-| E-mail:      | me@orlov-vo.ru                                                        |
-| Socials:     | linkedin.com/in/orlov-vo/, github.com/orlov-vo, facebook.com/orlov.vo |
-| Employment:  | full time remote                                                      |
+|              |                                                                                        |
+| ------------ | -------------------------------------------------------------------------------------- |
+| Keywords:    | JavaScript, TypeScript, Svelte, React, React Native, Redux, Node.js                    |
+| Location:    | Cyprus, Limassol (UTC+3) (willing to relocate)                                         |
+| Citizenship: | Russian Federation                                                                     |
+| Status:      | Employed in [MetaQuotes Ltd](https://www.metaquotes.net/en)                            |
+| E-mail:      | [me@orlov-vo.ru](mailto:me@orlov-vo.ru)                                                |
+| Socials:     | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [facebook.com/orlov.vo][fb] |
+| Employment:  | full time remote                                                                       |
 
 ## Personal summary
 
 Driven professional with broad technical skill set. Excellent developer experienced in interpreting
 and implementing client and staff business vision. Thrives in environments that constantly embrace
-new technologies.
+modern technologies.
+
+[**Example of my code - github:orlov-vo/preact-example-weather-app**](https://github.com/orlov-vo/preact-example-weather-app)
 
 ## Key skills and competencies
 
@@ -65,47 +67,48 @@ _December 2018 — till now_
 
 **Senior frontend developer** at [MetaQuotes Ltd](https://www.metaquotes.net/en)
 
-* Implement new business features
-* Migrate codebase to ESnext from ES5+AMD
-* Introduce Svelte 3 as main framework
-* Build flexible frontend router
+-   Implement new business features
+-   Migrate codebase to ESnext from ES5+AMD
+-   Introduce Svelte 3 as main framework
+-   Build flexible frontend router
+-   Research user's behavior to improve bot scoring
 
 _November 2017 — November 2018_
 
 **Senior frontend developer** at [Ortnec Services Ltd](https://en.ortnec.com/en)
 
-* Implement new business features
-* Introduce typing system (Flow) to ES6 codebase
-* Teaching teammates in frontend stack
-* Support and development of project’s infrastructure
-* Creating own UI library based on Bootstrap with CSS-in-JS
-* Testing, debugging & documentation
+-   Implement new business features
+-   Introduce typing system (Flow) to ES6 codebase
+-   Teaching teammates in frontend stack
+-   Support and development of project’s infrastructure
+-   Creating own UI library based on Bootstrap with CSS-in-JS
+-   Testing, debugging & documentation
 
 _February 2016 — May 2017_
 
 **Full-stack web-developer** at Advertising and design studio “WAX”
 
-* Creating new websites and editing exists
-* Business logic & database design
-* User interface design
-* Testing, debugging & documentation
+-   Creating new websites and editing exists
+-   Business logic & database design
+-   User interface design
+-   Testing, debugging & documentation
 
 _September 2013 — January 2016_
 
 **Middle web-developer** at Web-studio “100idea.ru”
 
-* Creating new websites and editing exists
-* Business logic & database design
-* Testing, debugging & documentation
+-   Creating new websites and editing exists
+-   Business logic & database design
+-   Testing, debugging & documentation
 
 _May 2012 — July 2013_
 
 **Web-master** at Freelance
 
-* Installation and configuration of various CMS: Wordpress, Joomla, MODx
-* Editing layout and scripts
-* Integration of modules and plugins
-* Configuring web-server (Apache, nginx) and DB
+-   Installation and configuration of various CMS: Wordpress, Joomla, MODx
+-   Editing layout and scripts
+-   Integration of modules and plugins
+-   Configuring web-server (Apache, nginx) and DB
 
 ## My favorites pet-projects
 
@@ -142,3 +145,7 @@ as relax on a beach or go to picnic. I love travelling and exploring something.
 
 I have been jump from the sky (above 4000 meters) with my wife, after that I think I don't scared by
 difficulties.
+
+[li]: https://linkedin.com/in/orlov-vo/
+[gh]: https://github.com/orlov-vo
+[fb]: https://facebook.com/orlov.vo
