@@ -6,3 +6,9 @@ other = "Sorry, this page does not exist."
 
 [head_back]
 other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
+
+[copyright]
+other = "All rights reserved, Vladislav Orlov <a href=\"/en/\">orlov-vo.ru</a>."
+
+[github_source]
+other = "Source on GitHub"

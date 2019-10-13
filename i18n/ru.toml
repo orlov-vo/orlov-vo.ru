@@ -6,3 +6,9 @@ other = "Извините, запрошенная страница не суще
 
 [head_back]
 other = "Вы можете вернуться <a href=\"{{ . }}\">на главную</a>."
+
+[copyright]
+other = "Все права защищены, Владислав Орлов <a href=\"/\">orlov-vo.ru</a>."
+
+[github_source]
+other = "Исходники на GitHub"

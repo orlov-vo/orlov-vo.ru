@@ -15,6 +15,12 @@
     padding-left: 6rem;
 }
 
+@media print {
+    .l-header {
+        display: none;
+    }
+}
+
 .l-header__avatar {
     position: absolute;
     top: 50%;

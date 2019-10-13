@@ -27,6 +27,12 @@
     color: var(--soft-color);
 }
 
+@media print {
+    .b-post__translations {
+        display: none;
+    }
+}
+
 /* Typograpy in post */
 
 .b-post table {
