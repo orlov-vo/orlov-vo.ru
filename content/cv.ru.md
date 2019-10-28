@@ -11,7 +11,7 @@ title: 'Ведущий Frontend Разработчик'
 | Гражданство: | Российская Федерация                                                                   |
 | Раб. Статус: | Трудоустроен в [MetaQuotes Ltd](https://www.metaquotes.net/ru)                         |
 | E-mail:      | [me@orlov-vo.ru](mailto:me@orlov-vo.ru)                                                |
-| Соц.сети:    | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [facebook.com/orlov.vo][fb] |
+| Соц.сети:    | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [twitter.com/orlov_vo][tw]  |
 | График:      | полный рабочий день удаленно                                                           |
 
 ## Краткое описание
@@ -145,4 +145,4 @@ _Май 2012 — Июль 2013_
 
 [li]: https://linkedin.com/in/orlov-vo/
 [gh]: https://github.com/orlov-vo
-[fb]: https://facebook.com/orlov.vo
+[tw]: https://twitter.com/orlov_vo

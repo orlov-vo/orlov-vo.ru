@@ -11,7 +11,7 @@ title: 'Senior frontend developer'
 | Citizenship: | Russian Federation                                                                     |
 | Status:      | Employed in [MetaQuotes Ltd](https://www.metaquotes.net/en)                            |
 | E-mail:      | [me@orlov-vo.ru](mailto:me@orlov-vo.ru)                                                |
-| Socials:     | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [facebook.com/orlov.vo][fb] |
+| Socials:     | [linkedin.com/in/orlov-vo][li], [github.com/orlov-vo][gh], [twitter.com/orlov_vo][tw]  |
 | Employment:  | full time remote                                                                       |
 
 ## Personal summary
@@ -148,4 +148,4 @@ difficulties.
 
 [li]: https://linkedin.com/in/orlov-vo/
 [gh]: https://github.com/orlov-vo
-[fb]: https://facebook.com/orlov.vo
+[tw]: https://twitter.com/orlov_vo
