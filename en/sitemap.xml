@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/cv/</loc>
+    <loc>https://orlov-vo.ru/en/cv/</loc>
     <lastmod>2019-10-28T18:49:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/cv/"
+                href="https://orlov-vo.ru/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cv/"
+                href="https://orlov-vo.ru/en/cv/"
                 />
   </url>
   
   <url>
-    <loc>/en/</loc>
+    <loc>https://orlov-vo.ru/en/</loc>
     <lastmod>2019-10-28T18:49:50+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/"
+                href="https://orlov-vo.ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://orlov-vo.ru/en/"
                 />
   </url>
   

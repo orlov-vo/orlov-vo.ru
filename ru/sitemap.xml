@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2019/serverless-part-1/</loc>
+    <loc>https://orlov-vo.ru/2019/serverless-part-1/</loc>
     <lastmod>2019-04-04T22:38:35+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/kak-mi-prozhili-polgoda-na-kipre/</loc>
+    <loc>https://orlov-vo.ru/2019/kak-mi-prozhili-polgoda-na-kipre/</loc>
     <lastmod>2019-03-31T11:49:33+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/wedding-in-cyprus/</loc>
+    <loc>https://orlov-vo.ru/2018/wedding-in-cyprus/</loc>
     <lastmod>2019-03-18T20:58:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/it-migration-to-cyprus/</loc>
+    <loc>https://orlov-vo.ru/2017/it-migration-to-cyprus/</loc>
     <lastmod>2019-03-18T20:58:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/</loc>
+    <loc>https://orlov-vo.ru/2017/v-poiskah-novogo-yazyka-dlya-izucheniya-ili-pochemu-ya-vybral-reasonml/</loc>
     <lastmod>2019-03-18T20:58:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/kakoj-yazyk-programmirovaniya-vybrat-v-2018/</loc>
+    <loc>https://orlov-vo.ru/2017/kakoj-yazyk-programmirovaniya-vybrat-v-2018/</loc>
     <lastmod>2019-03-18T20:58:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/hello-world/</loc>
+    <loc>https://orlov-vo.ru/2017/hello-world/</loc>
     <lastmod>2019-03-18T20:58:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://orlov-vo.ru/posts/</loc>
     <lastmod>2019-03-17T22:03:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/cv/</loc>
+    <loc>https://orlov-vo.ru/cv/</loc>
     <lastmod>2019-10-28T18:49:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cv/"
+                href="https://orlov-vo.ru/en/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/cv/"
+                href="https://orlov-vo.ru/cv/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://orlov-vo.ru/</loc>
     <lastmod>2019-03-31T11:49:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://orlov-vo.ru/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/"
+                href="https://orlov-vo.ru/"
                 />
   </url>
   
   <url>
-    <loc>/about-me/</loc>
+    <loc>https://orlov-vo.ru/about-me/</loc>
     <lastmod>2019-03-17T22:03:17+02:00</lastmod>
   </url>
   
