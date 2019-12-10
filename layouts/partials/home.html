@@ -29,6 +29,7 @@
         </div>
     </main>
 
+    {{ with .Site.GetPage "/posts" }}
     <section>
         <h2>Мои последние записи</h2>
 
@@ -36,20 +37,21 @@
             {{ range (.Paginate ( where .Pages "Type" "posts")).Pages }}
             <li class="b-post-list-short__item">
                 <span class="b-post-list-short__date">
-                    {{ if .IsDraft }}
+                    {{ if .Draft }}
                     Черновик
                     {{ else }}
                     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
                     {{ end }}
                 </span>
                 <span class="b-post-list-short__title"
-                    ><a href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a></span
+                    ><a href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a></span
                 >
             </li>
             <!-- prettier-ignore -->
             {{ end }}
         </ul>
 
-        <a href="/posts/">Смотреть все записи в блоге...</a>
+        <a href="{{ .RelPermalink }}">Смотреть все записи в блоге...</a>
     </section>
+    {{ end }}
 </div>
