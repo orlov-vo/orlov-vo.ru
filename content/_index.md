@@ -1,5 +1,5 @@
 ---
-title: Владислав Орлов
+title: Vladislav Orlov
 photo: main-photo.jpg
 ---
 

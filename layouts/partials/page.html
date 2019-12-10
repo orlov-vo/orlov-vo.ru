@@ -18,7 +18,7 @@
         <nav class="b-post__translations">
             Available in translations:
             {{ range.Translations }}
-            <a href="{{ .Permalink }}">{{ .Language.Params.name }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Language.Params.name }}</a>
             {{ end }}
         </nav>
         {{ end }}
