@@ -14,7 +14,7 @@ module.exports = merge(common, {
     },
 
     devServer: {
-        port: process.env.PORT || 8000,
+        port: Number(process.env.PORT) || 8000,
         contentBase: path.join(process.cwd(), './dist'),
         watchContentBase: true,
         stats: 'minimal',

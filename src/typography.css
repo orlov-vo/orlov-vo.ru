@@ -6,7 +6,7 @@ html {
     line-height: 1.4;
 }
 
-body {  
+body {
     min-height: 100vh;
     background-color: white;
     color: var(--normal-color);
@@ -20,7 +20,7 @@ a {
     background-repeat: no-repeat;
     background-position: center bottom 5%;
     background-origin: initial;
-    background-size: 100% .5px;
+    background-size: 100% 0.5px;
 }
 
 a:hover,

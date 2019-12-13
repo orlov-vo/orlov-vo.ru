@@ -1,4 +1,5 @@
 <article class="l-container b-post">
+    {{ if (not .Params.without_header) }}
     <header class="b-post__header">
         <h1 class="b-post__title">{{ .Title }}</h1>
 
@@ -23,6 +24,7 @@
         </nav>
         {{ end }}
     </header>
+    {{ end }}
 
     {{ .Content }}
 

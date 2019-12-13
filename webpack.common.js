@@ -4,9 +4,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 
+const srcPath = path.join(__dirname, 'src');
+
 module.exports = {
     entry: {
-        main: path.join(__dirname, 'src', 'index.js'),
+        main: path.join(srcPath, 'index.js'),
+        home: path.join(srcPath, 'pages', 'home', 'index.js'),
+        cv: path.join(srcPath, 'pages', 'cv', 'index.js'),
     },
 
     output: {
@@ -16,34 +20,27 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-                loader: 'file-loader?name=/[hash].[ext]',
+                test: /\.(jpg|png|eot|woff2?|svg|gif|csv)$/,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'media',
+                    name: '[contenthash].[ext]',
+                },
             },
 
             { test: /\.json$/, loader: 'json-loader' },
 
             {
                 loader: 'babel-loader',
-                test: /\.js?$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 query: { cacheDirectory: true },
             },
 
             {
-                test: /\.(sa|sc|c)ss$/,
+                test: /\.css$/,
                 exclude: /node_modules/,
-                use: [
-                    'style-loader',
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'postcss-loader',
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            implementation: require('dart-sass')
-                        }
-                    }
-                ],
+                use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
             },
         ],
     },

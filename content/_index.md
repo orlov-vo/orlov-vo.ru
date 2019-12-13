@@ -1,6 +1,7 @@
 ---
 title: Vladislav Orlov
 photo: main-photo.jpg
+page: home
 ---
 
 Я ведущий фронтендер в [Finteza](https://www.finteza.com). Проживаю на Кипре (родился в

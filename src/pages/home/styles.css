@@ -1,0 +1,34 @@
+.p-home__nav {
+    margin: -1em 0 1em;
+}
+
+.p-home__intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-home__photo {
+    flex: 0 1 auto;
+    margin-top: 1rem;
+}
+
+.p-home__photo img {
+    display: block;
+    border-radius: var(--img-radius);
+    margin: 0 auto;
+}
+
+.p-home__content {
+    flex: 1 1 auto;
+}
+
+@media (min-width: 600px) {
+    .p-home__intro {
+        flex-direction: row;
+    }
+
+    .p-home__photo {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,7 +1,7 @@
-<div class="l-home-page l-container">
+<div class="p-home l-container">
     <h1>{{ .Title }}</h1>
 
-    <nav class="l-home-page__nav">
+    <nav class="p-home__nav">
         {{ $isNotFirstSocialLink := false }}
         {{ range.Site.Params.socials }}
         {{ if $isNotFirstSocialLink }}
@@ -12,19 +12,19 @@
         {{ end }}
     </nav>
 
-    <main class="l-home-page__intro">
+    <main class="p-home__intro">
         {{ if .Params.photo }}
         {{ $res := .Resources.GetMatch .Params.photo }}
         {{ if $res }}
         {{ $thumb := $res.Fill "252x306 q80"}}
 
-        <div class="l-home-page__photo">
+        <div class="p-home__photo">
             <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" />
         </div>
         {{ end }}
         {{ end }}
 
-        <div class="l-home-page__content b-post">
+        <div class="p-home__content b-post">
             {{ .Content }}
         </div>
     </main>
