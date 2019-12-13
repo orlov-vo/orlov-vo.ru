@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -38,28 +38,8 @@
   </url>
   
   <url>
-    <loc>https://orlov-vo.ru/posts/</loc>
-    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://orlov-vo.ru/cv/</loc>
-    <lastmod>2019-10-28T18:49:50+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://orlov-vo.ru/en/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://orlov-vo.ru/cv/"
-                />
-  </url>
-  
-  <url>
     <loc>https://orlov-vo.ru/</loc>
-    <lastmod>2019-03-31T11:49:57+03:00</lastmod>
+    <lastmod>2019-12-13T20:45:41+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,6 +50,11 @@
                 hreflang="ru"
                 href="https://orlov-vo.ru/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://orlov-vo.ru/posts/</loc>
+    <lastmod>2019-03-17T22:03:17+02:00</lastmod>
   </url>
   
   <url>
