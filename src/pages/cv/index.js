@@ -228,3 +228,11 @@ function startLoad() {
 initGraph();
 updateGraph();
 startLoad();
+
+let raf;
+window.addEventListener('resize', () => {
+    if (raf) {
+        cancelAnimationFrame(raf);
+    }
+    raf = requestAnimationFrame(updateGraph);
+});
