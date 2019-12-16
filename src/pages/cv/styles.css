@@ -219,6 +219,68 @@
     background-image: url(../../icons/favorite-border.svg);
 }
 
+.p-cv__interests-print {
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.p-cv__interests-print-info {
+    display: none;
+    margin-bottom: 1.5rem;
+}
+
+.p-cv__interest-item {
+    display: grid;
+    grid-template-columns: 70px max-content;
+    grid-template-areas: "like name" "exp category";
+    align-items: center;
+    grid-gap: 0 .5em;
+}
+
+.p-cv__interest-name {
+    grid-area: name;
+    line-height: 1;
+
+}
+.p-cv__interest-category {
+    grid-area: category;
+    display: block;
+    font-size: 0.8em;
+}
+
+.p-cv__interest-exp,
+.p-cv__interest-like {
+    display: block;
+    font-size: 0.75em;
+    line-height: 1;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--soft-color);
+}
+
+.p-cv__interest-exp {
+    grid-area: exp;
+}
+
+.p-cv__interest-like {
+    grid-area: like;
+}
+
+@media print {
+    .p-cv__interests-graph {
+        display: none;
+    }
+
+    .p-cv__interests-print {
+        display: grid;
+    }
+
+    .p-cv__interests-print-info {
+        display: block;
+    }
+}
+
 .p-cv__graph-container {
     position: relative;
     padding-top: 60%;

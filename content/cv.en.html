@@ -1,6 +1,7 @@
 ---
 title: 'Senior frontend developer'
 without_header: true
+url: /cv/
 aliases: [/en/cv/]
 page: cv
 ---
@@ -112,12 +113,20 @@ page: cv
     <div class="p-cv__interests">
         <h2 class="p-cv__block-name">My tech interests</h2>
 
-        <div class="p-cv__graph-container">
-            <svg id="interests" class="p-cv__graph" width="100%" height="100%"></svg>
-            <div id="tooltip" class="p-cv__tooltip"></div>
+        <div class="p-cv__interests-graph">
+            <div class="p-cv__graph-container">
+                <svg id="interests" class="p-cv__graph" width="100%" height="100%"></svg>
+                <div id="tooltip" class="p-cv__tooltip"></div>
+            </div>
+
+            <div id="legend" class="p-cv__legend"></div>
         </div>
 
-        <div id="legend" class="p-cv__legend"></div>
+        <div class="p-cv__interests-print-info">
+            Here you see Top-30 my tech interests. Full list you can see on my website online: <a href="https://orlov-vo.ru/cv/">https://orlov-vo.ru/cv/</a>
+        </div>
+
+        <div id="interests-print" class="p-cv__interests-print"></div>
     </div>
 
     <div class="p-cv__career">

@@ -7,7 +7,7 @@ const COLORS = [
     '#6cdc22',
     '#22c9dc',
     '#9222dc',
-    '#f6e07c',
+    '#ffbe00',
     '#3bb8f2',
     '#ff9c0e',
     '#b1ff91',
@@ -197,6 +197,43 @@ function updateLegend() {
         .style('background', d => getColor(d));
 }
 
+function renderPrintPoint(selection) {
+    selection
+        .append('span')
+        .classed('p-cv__interest-name', true)
+        .text(d => d.name);
+
+    selection
+        .append('span')
+        .classed('p-cv__interest-category', true)
+        .style('color', d => getColor(d.category))
+        .text(d => d.category);
+
+    selection
+        .append('span')
+        .classed('p-cv__interest-like', true)
+        .text(d => `Like: ${formatPercent(d.like)}`);
+
+    selection
+        .append('span')
+        .classed('p-cv__interest-exp', true)
+        .text(d => `Exp.: ${formatPercent(d.exp)}`);
+}
+
+function printPoints(data) {
+    d3.select('#interests-print')
+        .selectAll('div')
+        .data(
+            data
+                .slice()
+                .sort((a, b) => 2 * (b.like - a.like) + (b.exp - a.exp))
+                .slice(0, 3 * 10),
+        )
+        .join('div')
+        .classed('p-cv__interest-item', true)
+        .call(renderPrintPoint);
+}
+
 function startLoad() {
     fetch(`/${interests}`)
         .then(response => response.text())
@@ -222,6 +259,7 @@ function startLoad() {
 
             updateGraph();
             updateLegend();
+            printPoints(data);
         });
 }
 
