@@ -8,8 +8,15 @@ page: cv
 
 <div class="p-cv">
     <header class="p-cv__header">
+        <a href="/" class="invisible-link">
+            <picture>
+                <source srcset="/profile-pic.avif" type="image/avif" />
+                <img class="p-cv__avatar" src="/profile-pic.jpg" alt="{{ i18n "site_name" }}" />
+            </picture>
+        </a>
+
         <h1 class="p-cv__name">
-            Vladislav Orlov
+            <a href="/" class="invisible-link">Vladislav Orlov</a>
             <small class="p-cv__title">Senior Frontend Developer</small>
         </h1>
     </header>
@@ -85,8 +92,8 @@ page: cv
         <h2 class="p-cv__block-name">Contacts</h2>
 
         <a class="p-cv__mail-link" href="mailto:me@orlov-vo.ru">me@orlov-vo.ru</a>
+        <a class="p-cv__telegram-link" href="https://t.me/orlov_vo">t.me/orlov_vo</a>
         <a class="p-cv__github-link" href="https://github.com/orlov-vo">github.com/orlov-vo</a>
-        <a class="p-cv__twitter-link" href="https://twitter.com/orlov_vo">twitter.com/orlov_vo</a>
         <a class="p-cv__linkedin-link" href="https://linkedin.com/in/orlov-vo/"
             >linkedin.com/in/orlov-vo</a
         >
@@ -137,13 +144,14 @@ page: cv
             <span class="p-cv__job-period">February 2020 — till now</span>
 
             <strong class="p-cv__job-position">Software engineer</strong>
-            at&nbsp;PushPlayLabs&nbsp;Inc
+            at&nbsp;<a href="https://meetsidekick.com/">PushPlayLabs&nbsp;Inc</a>
 
             <ol>
-                <li>
-                    Develop the extension for
-                    <a href="https://meetsidekick.com/">Sidekick browser</a>
-                </li>
+                <li>Develop the extension for Sidekick browser</li>
+                <li>Create fast in-memory search for history, documents etc.</li>
+                <li>Implement ML-based algorithm for suspending tabs</li>
+                <li>Introduce and adopt of using Svelte 3 as main rendering tool</li>
+                <li>Create new extension architecture based on effector to make project simple</li>
             </ol>
         </div>
 

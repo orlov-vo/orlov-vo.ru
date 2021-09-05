@@ -1,5 +1,8 @@
+[site_name]
+other = "Vladislav Orlov"
+
 [site_description]
-other = "Фронтенд разработчик, живущий на Кипре"
+other = "Цифровой-кочевник и JS/TS разработчик"
 
 [page_not_found]
 other = "Страница не найдена"
@@ -11,7 +14,7 @@ other = "Извините, запрошенная страница не суще
 other = "Вы можете вернуться <a href=\"{{ . }}\">на главную</a>."
 
 [copyright]
-other = "Все права защищены, Владислав Орлов <a href=\"/\">orlov-vo.ru</a>."
+other = "Все права защищены, Владислав Орлов."
 
 [github_source]
 other = "Исходники на GitHub"

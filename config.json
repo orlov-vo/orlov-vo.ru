@@ -4,7 +4,7 @@
     "languageLang": "ru",
     "languageCode": "ru-RU",
     "title": "Vladislav Orlov - orlov-vo.ru",
-    "description": "Личный сайт фронтенд разработчика, который живет на Кипре.",
+    "description": "Личный сайт digital-nomad разработчика",
     "disableKinds": ["RSS", "taxonomy", "taxonomyTerm"],
     "permalinks": {
         "posts": "/:year/:slug/"
@@ -23,8 +23,7 @@
         "socials": [
             { "name": "Twitter", "link": "https://twitter.com/orlov_vo" },
             { "name": "GitHub", "link": "https://github.com/orlov-vo" },
-            { "name": "LinkedIn", "link": "https://linkedin.com/in/orlov-vo/" },
-            { "name": "Facebook", "link": "https://facebook.com/orlov.vo" },
+            { "name": "Instagram", "link": "https://instagram.com/orlov_vo/" },
             { "name": "Telegram", "link": "https://t.me/orlov_vo" }
         ]
     },

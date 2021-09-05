@@ -3,9 +3,10 @@
     grid-template-columns: 1fr;
     grid-template-areas: 'head' 'skill-set' 'contacts' 'summary' 'interests' 'career' 'projects' 'education' 'hobbies';
     grid-gap: 2rem;
+    -webkit-print-color-adjust: exact;
 }
 
-@media (min-width: 600px) {
+@media print, (min-width: 600px) {
     .p-cv {
         grid-template-columns: 2fr 1fr;
         grid-template-areas: 'head head' 'skill-set contacts' 'summary summary' 'interests interests' 'career career' 'projects projects' 'hobbies education';
@@ -15,19 +16,20 @@
 .p-cv__header {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     grid-area: head;
     border-bottom: 1px solid var(--border-color);
+    gap: 1rem;
     padding-bottom: 1rem;
-    padding-left: calc(64px + 0.5rem);
+    padding-right: 64px;
     position: relative;
     min-height: calc(64px + 1rem);
 }
 
-.p-cv__header::before {
+.p-cv__header::after {
     position: absolute;
     top: calc(50% - 0.5rem);
-    left: 0;
+    right: 0;
     content: '';
     background: url(./qr-cv.svg) no-repeat;
     background-size: contain;
@@ -36,9 +38,16 @@
     transform: translateY(-50%);
 }
 
+img.p-cv__avatar {
+    display: block;
+    border-radius: 4rem;
+    width: 64px;
+    height: 64px;
+}
+
 .p-cv__name {
     display: block;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 0.1em;
@@ -52,12 +61,12 @@
     font-weight: normal;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 600px) {
     .p-cv__name {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .p-cv__title {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -119,6 +128,13 @@
     }
 }
 
+@media print {
+    .p-cv__skill-set {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'head head';
+    }
+}
+
 .p-cv__skill-set .p-cv__block-name {
     margin-bottom: 0;
 }
@@ -149,6 +165,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.1rem;
 }
 
 .p-cv__contacts .p-cv__block-name::after {
@@ -157,7 +174,7 @@
 
 .p-cv__mail-link,
 .p-cv__github-link,
-.p-cv__twitter-link,
+.p-cv__telegram-link,
 .p-cv__linkedin-link,
 .p-cv__location {
     font-size: 0.8em;
@@ -167,7 +184,7 @@
 
 .p-cv__mail-link::before,
 .p-cv__github-link::before,
-.p-cv__twitter-link::before,
+.p-cv__telegram-link::before,
 .p-cv__linkedin-link::before,
 .p-cv__location::before {
     content: '';
@@ -191,8 +208,8 @@
     background-image: url(../../icons/github.svg);
 }
 
-.p-cv__twitter-link::before {
-    background-image: url(../../icons/twitter.svg);
+.p-cv__telegram-link::before {
+    background-image: url(../../icons/telegram.svg);
 }
 
 .p-cv__linkedin-link::before {
@@ -233,15 +250,14 @@
 .p-cv__interest-item {
     display: grid;
     grid-template-columns: 70px max-content;
-    grid-template-areas: "like name" "exp category";
+    grid-template-areas: 'like name' 'exp category';
     align-items: center;
-    grid-gap: 0 .5em;
+    grid-gap: 0 0.5em;
 }
 
 .p-cv__interest-name {
     grid-area: name;
     line-height: 1;
-
 }
 .p-cv__interest-category {
     grid-area: category;

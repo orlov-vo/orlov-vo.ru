@@ -26,11 +26,14 @@
     top: 50%;
     left: 1rem;
     transform: translateY(-50%);
+    width: 64px;
+    height: 64px;
     border-radius: 4rem;
 }
 
 .l-header__author {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
 }
 
 .l-footer {

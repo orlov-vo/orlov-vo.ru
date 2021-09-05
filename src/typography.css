@@ -13,12 +13,20 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    margin: 0;
+}
+
+p:not(:last-child):not([class]) {
+    margin-bottom: 1rem;
+}
+
 a {
     color: var(--link-color);
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-repeat: no-repeat;
-    background-position: center bottom 5%;
+    background-position: center bottom 10%;
     background-origin: initial;
     background-size: 100% 0.5px;
 }
