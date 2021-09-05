@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://orlov-vo.ru/cv/</loc>
-    <lastmod>2020-07-10T09:38:07+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-05T21:25:10+03:00</lastmod>
+  </url><url>
     <loc>https://orlov-vo.ru/en/</loc>
-    <lastmod>2020-07-10T09:38:07+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -21,5 +17,4 @@
                 href="https://orlov-vo.ru/en/"
                 />
   </url>
-  
 </urlset>

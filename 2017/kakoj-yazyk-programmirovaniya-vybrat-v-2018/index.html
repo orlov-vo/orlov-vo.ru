@@ -7,7 +7,7 @@
         <title>Какой язык программирования выбрать в 2018 году - Vladislav Orlov - orlov-vo.ru</title>
         
         <link rel="shortcut icon" href="/favicon.png" />
-        <link href="/main.7c143.css" rel="stylesheet" />
+        <link href="/main.1a9f2.css" rel="stylesheet" />
         
         
     </head>
@@ -15,46 +15,28 @@
     <body>
 <header class="l-container l-header">
     <a href="/" class="invisible-link">
-        <img class="l-header__avatar" src="/profile-pic.jpg" alt="Владислав Орлов" />
+        <picture>
+            <source srcset="/profile-pic.avif" type="image/avif" />
+            <img class="l-header__avatar" src="/profile-pic.jpg" alt="Vladislav Orlov" />
+        </picture>
 
         <author class="l-header__author">Vladislav Orlov </author>
     </a>
 
     <p class="l-header__description">
-        Фронтенд разработчик, живущий на Кипре
+        Цифровой-кочевник и JS/TS разработчик
     </p>
 
     <nav class="l-header__nav">
-        
-        
-        
+          
         <a href="https://twitter.com/orlov_vo" target="_blank">Twitter</a>
-        
-        
-        
-        ‧
-        
+           ‧ 
         <a href="https://github.com/orlov-vo" target="_blank">GitHub</a>
-        
-        
-        
-        ‧
-        
-        <a href="https://linkedin.com/in/orlov-vo/" target="_blank">LinkedIn</a>
-        
-        
-        
-        ‧
-        
-        <a href="https://facebook.com/orlov.vo" target="_blank">Facebook</a>
-        
-        
-        
-        ‧
-        
+           ‧ 
+        <a href="https://instagram.com/orlov_vo/" target="_blank">Instagram</a>
+           ‧ 
         <a href="https://t.me/orlov_vo" target="_blank">Telegram</a>
-        
-        
+         
     </nav>
 </header>
 
@@ -108,7 +90,7 @@
 <p>Но выбрав язык на вооружение по бенчмаркам, вскоре понимаешь минусы, начинаешь чувствовать
 дискомфорт. Например выбрав очередного &ldquo;убийцу X&rdquo;, ты сталкиваешься со следующими проблемами: слабо
 развитое коммьюнити, малое количество доступных библиотек.</p>
-<h1 id="-tiobe">Рейтинг TIOBE</h1>
+<h1 id="рейтинг-tiobe">Рейтинг TIOBE</h1>
 <p>Есть другая альтернатива выбора, по рейтингам. Один из известных рейтингов, который оценивает по
 количеству специалистов на рынке, количеству курсов, а также поисковых запросов является
 <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a>. Важным замечанием будет то, что в рейтинге нет оценки
@@ -117,9 +99,9 @@
 собственный комментарий. На момент написания заметки (Октябрь 2017) рейтинг выглядит следующим
 образом:</p>
 <h2 id="1-java">1. Java</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World!&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World!&#34;</span><span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Любимчик больших компаний, позволяет писать софт, который запускается на любой операционной системе,
@@ -133,11 +115,11 @@
 а также использовать библиотеки под Java. Но нужно понимать как работает все внутри, поэтому без
 изучения Java в эти языки лучше не лезть.</p>
 <h2 id="2-c">2. C</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#</span><span style="color:#75715e">include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span> (<span style="color:#66d9ef">void</span>)
 {
-  printf (<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello, World!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+  printf (<span style="color:#e6db74">&#34;Hello, World!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
   <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 }
 </code></pre></div><p>Обязательно к изучению, для понимания основ системного программирования. Позволяет писать
@@ -152,10 +134,10 @@
 сохранит вам ноги, оставив возможности писать компактные исполняемые файлы, второй позволит
 углубится в работу процессора.</p>
 <h2 id="3-c">3. C++</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">#</span><span style="color:#75715e">include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
-    std<span style="color:#f92672">:</span><span style="color:#f92672">:</span>cout <span style="color:#f92672">&lt;</span><span style="color:#f92672">&lt;</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello, World!</span><span style="color:#e6db74">&#34;</span>;
+    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>;
     <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 }
 </code></pre></div><p>Советую изучать после C, чтобы было понимание как все хранится внутри и как работать с памятью и
@@ -166,7 +148,7 @@
 <p>Мне больше всего в этом языке нравится стандартная библиотека (STL), которой хватает на большинство
 потребностей. А если её не хватает, то можно подключить Boost. :)</p>
 <h2 id="4-c">4. C</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">using</span> System;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">using</span> System;
 <span style="color:#66d9ef">namespace</span> HelloWorld
 {
     <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Hello</span>
@@ -183,7 +165,7 @@
 <p>Для дальнейшего развития, можно рассмотреть язык Go для написания сетевых программ. Он прост в
 освоении, насаждает единый стиль написания кода, поэтому очень удобный в крупных командах.</p>
 <h2 id="5-python">5. Python</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello, World!</span><span style="color:#e6db74">&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">print(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
 </code></pre></div><p>До сих пор неизвестный мне чудик, который я все еще не начал изучать. Наслышан о нем как о легком
 языке, с которого можно начинать путь программиста.</p>
 <p>Из минусов слышал, что проблемы с паралельным выполнением кода и скоростью исполнения кода по
@@ -191,7 +173,7 @@
 <p>Однако почему стоит начать учить его: очень много библиотек и с недавним трендом к машинному
 обучению, данный язык является лучшим выбором из-за выбора ML-библиотек.</p>
 <h2 id="6-javascript">6. JavaScript</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Hello, World!&#39;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Hello, World!&#39;</span>);
 </code></pre></div><p>По мне так язык будущего, который очень долго будет расти. С каждым годом производители браузеров
 ускоряют исполнения программ, оптимизируя как сами движки так и программы, которые туда загружаются.</p>
 <p>Новые стандарты радуют глаз. А если их не хватает или нужна поддержка старых движков, есть
@@ -200,12 +182,12 @@
 <p>Для развития советую изучать TypeScript, который вносит очень крутые плюшки в ваш код, делая его
 очень стабильным.</p>
 <h2 id="7-php">7. PHP</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
 <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Hello, World!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
 </code></pre></div><p>Мой первый язык программирования. Сейчас уже давно его не использую, хотя иногда встречаются задачи,
 когда нужно подправить на сайте у клиента какой-то участок кода.</p>
 <h2 id="8-visual-basic-net">8. Visual Basic .NET</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-basic" data-lang="basic">Module Hello
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-basic" data-lang="basic">Module Hello
   Sub Main()
       MsgBox(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
   End Sub
@@ -214,7 +196,7 @@ End Module
 несущих дальнейших ценностей в становлении программиста. Лучше возьмите Java, C, JS или Python для
 изучения, с ними вы хоть работу интересную найдете</p>
 <h2 id="9-assembly-language">9. Assembly Language</h2>
-<pre><code class="language-x86asm" data-lang="x86asm">.model small
+<pre tabindex="0"><code class="language-x86asm" data-lang="x86asm">.model small
 .stack 100h
 
 .data
@@ -232,11 +214,11 @@ end start
 Хоть ассемблер и является языком, но считать за язык его сложно из-за эквивалентности его</p>
 <p>Советую начинать изучать после основ системного программирования (язык C для начала).</p>
 <h2 id="10-ruby">10. Ruby</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">puts <span style="color:#e6db74">&#39;Hello, world!&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">puts <span style="color:#e6db74">&#39;Hello, world!&#39;</span>
 </code></pre></div><p>Популярность данный язык получил благодоря чудесному фреймворку Ruby on Rails. Изучать возможно
 стоит, если планируется работать с данным фреймворкам. Хотя судя по трендам, сейчас идет отток
 Ruby-программистов. Многие переходят на что-то другое. Слышал много рубистов перешли на Elixir.</p>
-<h2 id="heading">Заключение</h2>
+<h2 id="заключение">Заключение</h2>
 <p>В качестве заключения, хочу сказать, что выбирать язык программирования сложно, необходимо смотреть
 на задачи, которые вы им будете решать. Или смотреть на используемые стеки в вакансиях, которые вам
 хочется занять.</p>
@@ -280,8 +262,8 @@ Ruby-программистов. Многие переходят на что-т�
 
 
 </div><footer class="l-container l-footer">
-    © 2017-2020 Все права защищены, Владислав Орлов <a href="/">orlov-vo.ru</a>.
-    <a href="https://github.com/orlov-vo/orlov-vo.github.io" target="_blank">Исходники на GitHub</a>
+    © 2017-2021 Все права защищены, Владислав Орлов.
+    <a href="https://github.com/orlov-vo/orlov-vo.ru" target="_blank">Исходники на GitHub</a>
 </footer>
 <script src="/main.f6ec7.js" defer></script>
         
