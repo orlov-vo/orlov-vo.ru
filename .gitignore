@@ -3,9 +3,7 @@
 
 # production
 dist/
-data/webpack.json
-resources/_gen/
-stats.json
+.svelte-kit/
 
 # testing
 /coverage

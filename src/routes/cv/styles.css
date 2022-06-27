@@ -1,0 +1,505 @@
+.p-cv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'head' 'skill-set' 'contacts' 'summary' 'interests' 'career' 'projects' 'education' 'hobbies';
+    grid-gap: 2rem;
+    -webkit-print-color-adjust: exact;
+}
+
+@media print, (min-width: 600px) {
+    .p-cv {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 'head head' 'skill-set contacts' 'summary summary' 'interests interests' 'career career' 'projects projects' 'hobbies education';
+    }
+}
+
+.p-cv__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-area: head;
+    border-bottom: 1px solid var(--border-color);
+    gap: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 64px;
+    position: relative;
+    min-height: calc(64px + 1rem);
+}
+
+.p-cv__header::after {
+    position: absolute;
+    top: calc(50% - 0.5rem);
+    right: 0;
+    content: '';
+    background: url(./qr-cv.svg) no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    transform: translateY(-50%);
+}
+
+img.p-cv__avatar {
+    display: block;
+    border-radius: 4rem;
+    width: 64px;
+    height: 64px;
+}
+
+.p-cv__name {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.p-cv__title {
+    display: block;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+
+@media (min-width: 600px) {
+    .p-cv__name {
+        font-size: 2.3rem;
+    }
+    .p-cv__title {
+        font-size: 1rem;
+    }
+}
+
+.p-cv__block-name {
+    grid-area: head;
+    letter-spacing: -0.0125em;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding-left: 2.75rem;
+    position: relative;
+}
+
+.p-cv__block-name::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    background: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    transform: translateY(-50%);
+    border-radius: 2rem;
+}
+
+.p-cv__block-name::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    fill: #fff;
+}
+
+.p-cv__skill-set {
+    grid-area: skill-set;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'head head';
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    align-content: flex-start;
+}
+
+@media (min-width: 480px) and (max-width: 600px) {
+    .p-cv__skill-set {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'head head head';
+    }
+}
+
+@media (min-width: 740px) {
+    .p-cv__skill-set {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'head head head';
+    }
+}
+
+@media print {
+    .p-cv__skill-set {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'head head';
+    }
+}
+
+.p-cv__skill-set .p-cv__block-name {
+    margin-bottom: 0;
+}
+
+.p-cv__skill-set .p-cv__block-name::after {
+    background-image: url(/icons/work-outline.svg);
+}
+
+.p-cv__skill {
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.p-cv__progress {
+    height: 0.25rem;
+    background: var(--border-color);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.p-cv__progress-bar {
+    height: 100%;
+    background: var(--primary-color);
+}
+
+.p-cv__contacts {
+    grid-area: contacts;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+}
+
+.p-cv__contacts .p-cv__block-name::after {
+    background-image: url(/icons/mail-outline.svg);
+}
+
+.p-cv__mail-link,
+.p-cv__github-link,
+.p-cv__telegram-link,
+.p-cv__linkedin-link,
+.p-cv__location {
+    font-size: 0.8em;
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.p-cv__mail-link::before,
+.p-cv__github-link::before,
+.p-cv__telegram-link::before,
+.p-cv__linkedin-link::before,
+.p-cv__location::before {
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
+
+.p-cv__mail-link::before {
+    background-image: url(/icons/email.svg);
+}
+
+.p-cv__github-link::before {
+    background-image: url(/icons/github.svg);
+}
+
+.p-cv__telegram-link::before {
+    background-image: url(/icons/telegram.svg);
+}
+
+.p-cv__linkedin-link::before {
+    background-image: url(/icons/linkedin.svg);
+}
+
+.p-cv__location::before {
+    background-image: url(/icons/my-location.svg);
+}
+
+.p-cv__summary {
+    grid-area: summary;
+}
+
+.p-cv__summary .p-cv__block-name::after {
+    background-image: url(/icons/whatshot.svg);
+}
+
+.p-cv__interests {
+    grid-area: interests;
+}
+
+.p-cv__interests .p-cv__block-name::after {
+    background-image: url(/icons/favorite-border.svg);
+}
+
+.p-cv__interests-print {
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.p-cv__interests-print-info {
+    display: none;
+    margin-bottom: 1.5rem;
+}
+
+.p-cv__interest-item {
+    display: grid;
+    grid-template-columns: 70px max-content;
+    grid-template-areas: 'like name' 'exp category';
+    align-items: center;
+    grid-gap: 0 0.5em;
+}
+
+.p-cv__interest-name {
+    grid-area: name;
+    line-height: 1;
+}
+.p-cv__interest-category {
+    grid-area: category;
+    display: block;
+    font-size: 0.8em;
+}
+
+.p-cv__interest-exp,
+.p-cv__interest-like {
+    display: block;
+    font-size: 0.75em;
+    line-height: 1;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--soft-color);
+}
+
+.p-cv__interest-exp {
+    grid-area: exp;
+}
+
+.p-cv__interest-like {
+    grid-area: like;
+}
+
+@media print {
+    .p-cv__interests-graph {
+        display: none;
+    }
+
+    .p-cv__interests-print {
+        display: grid;
+    }
+
+    .p-cv__interests-print-info {
+        display: block;
+    }
+}
+
+.p-cv__graph-container {
+    position: relative;
+    padding-top: 60%;
+}
+
+@media (min-height: 480px) and (max-width: 480px) {
+    .p-cv__graph-container {
+        padding-top: 150%;
+    }
+}
+
+.p-cv__graph {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.p-cv__axis {
+    color: var(--border-color);
+}
+
+.p-cv__axis-title {
+    fill: var(--soft-color);
+    font-size: 0.8rem;
+}
+
+.p-cv__tooltip {
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.25rem 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    transform: translate(-50%, -1em);
+    border-radius: 0.25rem;
+    min-width: 10rem;
+    flex-wrap: wrap;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 0 0.25em 1em 0 rgba(0, 0, 0, 0.1);
+}
+
+.p-cv__tooltip::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 5px);
+    border: 5px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.8);
+}
+
+.p-cv__tooltip-name {
+    flex: 1 0 100%;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.p-cv__tooltip-line {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.p-cv__legend {
+    display: flex;
+    flex-wrap: wrap;
+    padding: -0.25rem;
+}
+
+.p-cv__legend-btn {
+    position: relative;
+    background: transparent;
+    color: var(--soft-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    padding: 0.25em 0.5em 0.25em 1.5em;
+    margin: 0.25rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.p-cv__legend-btn_active {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.p-cv__legend-btn span {
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 0.5em;
+    transform: translateY(-50%);
+    border-radius: 1em;
+}
+
+.p-cv__career {
+    grid-area: career;
+}
+
+.p-cv__career .p-cv__block-name::after {
+    background-image: url(/icons/group-work.svg);
+}
+
+.p-cv__job {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.p-cv__job::before {
+    position: absolute;
+    content: '';
+    top: 1.5rem;
+    left: 7px;
+    border: 5px solid transparent;
+    box-shadow: 0 0 0 2px var(--primary-color);
+    border-radius: 5px;
+}
+
+.p-cv__job::after {
+    position: absolute;
+    content: '';
+    top: calc(1.5rem + 12px + 0.25rem);
+    left: 11px;
+    bottom: calc(-2rem - 1.5rem + 0.25rem);
+    width: 1px;
+    background: var(--border-color);
+}
+
+.p-cv__job:last-child::after {
+    content: none;
+}
+
+.p-cv__job-period {
+    display: block;
+    color: var(--soft-color);
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+}
+
+.p-cv__job ol {
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 480px) {
+    .p-cv__job ol {
+        font-size: 1rem;
+    }
+}
+
+.p-cv__projects {
+    grid-area: projects;
+}
+
+.p-cv__projects .p-cv__block-name::after {
+    background-image: url(/icons/done-all.svg);
+}
+
+.p-cv__project {
+    color: var(--soft-color);
+    font-size: 0.8em;
+}
+
+.p-cv__project a {
+    font-size: 1rem;
+}
+
+.p-cv__project-short-list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 480px) {
+    .p-cv__project-short-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.p-cv__hobbies {
+    grid-area: hobbies;
+}
+
+.p-cv__hobbies .p-cv__block-name::after {
+    background-image: url(/icons/sports-football.svg);
+}
+
+.p-cv__education {
+    grid-area: education;
+}
+
+.p-cv__education .p-cv__block-name::after {
+    background-image: url(/icons/school.svg);
+}
+
+.p-cv__education-period {
+    display: block;
+    font-size: 0.9em;
+    color: var(--soft-color);
+}
