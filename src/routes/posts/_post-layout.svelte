@@ -32,7 +32,7 @@
 
 <section class="l-container">
     <div class="b-feedback">
-        <p class="b-feedback__description">Оставить отзыв или задать вопрос лично по email</p>
+        <div class="b-feedback__description">Оставить отзыв или задать вопрос лично по email</div>
 
         <form
             class="b-feedback__form"

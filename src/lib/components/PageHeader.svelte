@@ -12,7 +12,7 @@
         <author class="l-header__author">Vladislav Orlov</author>
     </a>
 
-    <p class="l-header__description">Цифровой-кочевник и JS/TS разработчик</p>
+    <div class="l-header__description">Цифровой-кочевник и JS/TS разработчик</div>
 
     <nav class="l-header__nav">
         {#each socialLinks as link, index}
