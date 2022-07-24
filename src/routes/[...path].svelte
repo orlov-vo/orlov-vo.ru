@@ -26,4 +26,4 @@
     <meta property="og:title" content={title} />
 </svelte:head>
 
-<Page />
+<svelte:component this={Page} />
