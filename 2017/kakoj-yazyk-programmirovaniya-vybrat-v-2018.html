@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="content-security-policy" content=""><title>Какой язык программирования выбрать в 2018 году - Vladislav Orlov - orlov-vo.ru</title><link rel="stylesheet" href="/normalize.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/variables.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/typography.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/layout.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/blocks/post-list-short.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/blocks/post.css" data-svelte="svelte-zz9ekq"><link rel="stylesheet" href="/blocks/feedback.css" data-svelte="svelte-zz9ekq"><meta property="og:title" content="Какой язык программирования выбрать в 2018 году" data-svelte="svelte-1obu40o">
+	<link rel="modulepreload" href="/_app/immutable/start-d2c5b3f3.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-7f56c5fc.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-54606ca2.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/_...path_.svelte-3e1e7864.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/posts-11342c20.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/PageHeader-c31241fe.js">
+    </head>
+    <body>
+        <div>
+
+
+
+
+
+
+<header class="l-container l-header"><a href="/" class="invisible-link"><picture><source srcset="/profile-pic.avif" type="image/avif">
+            <img class="l-header__avatar" src="/profile-pic.jpg" alt="Vladislav Orlov"></picture>
+
+        <author class="l-header__author">Vladislav Orlov</author></a>
+
+    <div class="l-header__description">Цифровой-кочевник и JS/TS разработчик</div>
+
+    <nav class="l-header__nav">
+            <a href="https://twitter.com/orlov_vo" target="_blank">Twitter</a> ‧ 
+            <a href="https://github.com/orlov-vo" target="_blank">GitHub</a> ‧ 
+            <a href="https://instagram.com/orlov_vo/" target="_blank">Instagram</a> ‧ 
+            <a href="https://t.me/orlov_vo" target="_blank">Telegram</a></nav></header>
+
+<article class="l-container b-post"><header class="b-post__header"><h1 class="b-post__title">Какой язык программирования выбрать в 2018 году</h1>
+
+        <time class="b-post__date" datetime="2017-10-19T00:00:00.000Z">19.10.2017</time>
+
+        <span class="b-post__duration">9 мин. чтения</span></header>
+    <p><img src="/images/2017/kakoj-yazyk-programmirovaniya-vybrat-v-2018.jpg" alt="Cloud of Languages"></p>
+<p>Проблема идущая из года в год затрагивает умы как начинающего поколения программистов так и уже
+состоявшихся энтузиастов. В социальных сетях, на форумах и различных ресурсах ведутся священные
+войны за выбор лучшего языка программирования. Приводятся различные сравнения производительности на
+моделированных задачах, когда один язык позволяет быстрее решить задачу.</p>
+<p>Но выбрав язык на вооружение по бенчмаркам, вскоре понимаешь минусы, начинаешь чувствовать
+дискомфорт. Например выбрав очередного “убийцу X”, ты сталкиваешься со следующими проблемами: слабо
+развитое коммьюнити, малое количество доступных библиотек.</p>
+<h1>Рейтинг TIOBE</h1>
+<p>Есть другая альтернатива выбора, по рейтингам. Один из известных рейтингов, который оценивает по
+количеству специалистов на рынке, количеству курсов, а также поисковых запросов является
+<a href="https://www.tiobe.com/tiobe-index/" rel="nofollow">TIOBE</a>. Важным замечанием будет то, что в рейтинге нет оценки
+какой лучший язык или на котором было написано больше кода.</p>
+<p>Давайте посмотрим данный рейтинг, рассмотрим первую десятку лидеров. Каждому я постараюсь дать
+собственный комментарий. На момент написания заметки (Октябрь 2017) рейтинг выглядит следующим
+образом:</p>
+<h2>1. Java</h2>
+<pre class="language-java"><!-- HTML_TAG_START --><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>Любимчик больших компаний, позволяет писать софт, который запускается на любой операционной системе,
+которая поддерживает установку виртуальной машинный Java (JVM). Данный язык насаждает
+объектно-ориентированную парадигму, заставляя писать под любую прихоть классы.</p>
+<p>Есть беда с оперативной памятью, она заключается в том, что операции выделения и очистки памяти
+берет на себя виртуальная машина. Нужно уметь правильно тюнить виртуальную машину, чтобы софт не
+зависал при очистке памяти.</p>
+<p>В наше время, после изучения данного языка программирования, советую присмотреться к языкам
+основанным на работе с JVM, такие как: Scala, Kotlin и др. Они позволяют писать быстрее и красивее,
+а также использовать библиотеки под Java. Но нужно понимать как работает все внутри, поэтому без
+изучения Java в эти языки лучше не лезть.</p>
+<h2>2. C</h2>
+<pre class="language-c"><!-- HTML_TAG_START --><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+  <span class="token function">printf</span> <span class="token punctuation">(</span><span class="token string">"Hello, World!&#92;n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>Обязательно к изучению, для понимания основ системного программирования. Позволяет писать
+эффективные программы, которые экономично используют память. Но важно знать то, что данный язык
+позволяет стрелять себе по ногам, не защищая тебя от критичных ошибок в runtime, утечек памяти и
+т.д.</p>
+<p>За время существования языка было написано много библиотек и примеров. Проблемы с этим языком
+начинаются во время поиска работы, нужно иметь уверенное знания этого языка, а также эффективных
+алгоритмов и принципы оптимизации. В добавок нужны проекты за спиной. С проектами можно решить
+проблему: заказав например Arduino, собрав что-то интересное и продемонстрировав на собеседовании.</p>
+<p>Для дальнейшего развития советую рассмотреть следующих кандидатов: Rust и Assembly Language. Первый
+сохранит вам ноги, оставив возможности писать компактные исполняемые файлы, второй позволит
+углубится в работу процессора.</p>
+<h2>3. C++</h2>
+<pre class="language-cpp"><!-- HTML_TAG_START --><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Hello, World!"</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>Советую изучать после C, чтобы было понимание как все хранится внутри и как работать с памятью и
+т.д. Хотя C++ позволяет писать очень хороший код, который сложно завалить, но случаи с отстрелом ног
+тут учащаются из-за очень богатых возможностей самого языка.</p>
+<p>На минуточку: это один из языков, который невозможно изучить на все 100%. С каждым годом выходят
+новые стандарты, которые позволяют писать код лучше и быстрее.</p>
+<p>Мне больше всего в этом языке нравится стандартная библиотека (STL), которой хватает на большинство
+потребностей. А если её не хватает, то можно подключить Boost. :)</p>
+<h2>4. C</h2>
+<pre class="language-csharp"><!-- HTML_TAG_START --><code class="language-csharp"><span class="token keyword">using</span> <span class="token namespace">System</span><span class="token punctuation">;</span>
+<span class="token keyword">namespace</span> <span class="token namespace">HelloWorld</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">class</span> <span class="token class-name">Hello</span>
+    <span class="token punctuation">&#123;</span>
+        <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">&#123;</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+    <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>Отличный язык программирования, позволяет писать отличный софт, который хорошо будет себя проявлять
+в крупных и средних компаниях.</p>
+<p>Возможности языка позволяют ему создавать десктопные, мобильные (Xamarin) и серверные приложения.</p>
+<p>Для дальнейшего развития, можно рассмотреть язык Go для написания сетевых программ. Он прост в
+освоении, насаждает единый стиль написания кода, поэтому очень удобный в крупных командах.</p>
+<h2>5. Python</h2>
+<pre class="language-python"><!-- HTML_TAG_START --><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span></code><!-- HTML_TAG_END --></pre>
+<p>До сих пор неизвестный мне чудик, который я все еще не начал изучать. Наслышан о нем как о легком
+языке, с которого можно начинать путь программиста.</p>
+<p>Из минусов слышал, что проблемы с паралельным выполнением кода и скоростью исполнения кода по
+сравнению с компилируемыми языками.</p>
+<p>Однако почему стоит начать учить его: очень много библиотек и с недавним трендом к машинному
+обучению, данный язык является лучшим выбором из-за выбора ML-библиотек.</p>
+<h2>6. JavaScript</h2>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Hello, World!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>По мне так язык будущего, который очень долго будет расти. С каждым годом производители браузеров
+ускоряют исполнения программ, оптимизируя как сами движки так и программы, которые туда загружаются.</p>
+<p>Новые стандарты радуют глаз. А если их не хватает или нужна поддержка старых движков, есть
+возможность использовать трансплитеры такие как: Babel, TypeScript, <del>ClojureScript</del>,
+<del>CoffeScript</del>.</p>
+<p>Для развития советую изучать TypeScript, который вносит очень крутые плюшки в ваш код, делая его
+очень стабильным.</p>
+<h2>7. PHP</h2>
+<pre class="language-php"><!-- HTML_TAG_START --><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<span class="token keyword">echo</span> <span class="token string double-quoted-string">"Hello, World!&#92;n"</span><span class="token punctuation">;</span></span></code><!-- HTML_TAG_END --></pre>
+<p>Мой первый язык программирования. Сейчас уже давно его не использую, хотя иногда встречаются задачи,
+когда нужно подправить на сайте у клиента какой-то участок кода.</p>
+<h2>8. Visual Basic .NET</h2>
+<pre class="language-basic"><!-- HTML_TAG_START --><code class="language-basic">Module Hello
+  <span class="token keyword">Sub</span> Main<span class="token punctuation">(</span><span class="token punctuation">)</span>
+      MsgBox<span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span>
+  <span class="token keyword">End</span> <span class="token keyword">Sub</span>
+<span class="token keyword">End</span> Module</code><!-- HTML_TAG_END --></pre>
+<p>Честно не понимаю как он тут оказался. Для меня является языком программирования для начинающих, не
+несущих дальнейших ценностей в становлении программиста. Лучше возьмите Java, C, JS или Python для
+изучения, с ними вы хоть работу интересную найдете</p>
+<h2>9. Assembly Language</h2>
+<pre class="language-x86asm"><!-- HTML_TAG_START --><code class="language-x86asm">.model small
+.stack 100h
+
+.data
+msg	db	&#39;Hello world!$&#39;
+
+.code
+start:
+	mov	ah, 09h   ; Display the message
+	lea	dx, msg
+	int	21h
+	mov	ax, 4C00h  ; Terminate the executable
+	int	21h
+end start</code><!-- HTML_TAG_END --></pre>
+<p>Ассемблер позволяет писать код напрямую для процессора, без использования языков программирования.
+Хоть ассемблер и является языком, но считать за язык его сложно из-за эквивалентности его</p>
+<p>Советую начинать изучать после основ системного программирования (язык C для начала).</p>
+<h2>10. Ruby</h2>
+<pre class="language-ruby"><!-- HTML_TAG_START --><code class="language-ruby">puts <span class="token string-literal"><span class="token string">'Hello, world!'</span></span></code><!-- HTML_TAG_END --></pre>
+<p>Популярность данный язык получил благодоря чудесному фреймворку Ruby on Rails. Изучать возможно
+стоит, если планируется работать с данным фреймворкам. Хотя судя по трендам, сейчас идет отток
+Ruby-программистов. Многие переходят на что-то другое. Слышал много рубистов перешли на Elixir.</p>
+<h2>Заключение</h2>
+<p>В качестве заключения, хочу сказать, что выбирать язык программирования сложно, необходимо смотреть
+на задачи, которые вы им будете решать. Или смотреть на используемые стеки в вакансиях, которые вам
+хочется занять.</p>
+<p>Не ограничивайтесь языками, представленными здесь! Есть много прекрасных языков.</p>
+<p>Точного могу сказать, что есть тренды отхода от ООП в сторону ФП. Поэтому стоит изучать
+функциональные языки, ради общего развития как специалиста. Но не стоит останавливаться на одном
+языке, изучайте всегда новые технологии, не применяйте их на боевых проектах, пробуйте их на
+домашних.</p>
+<p>На этом у меня все! До новых встреч!</p>
+
+    <footer class="b-post__footer"><a href="/posts/">Смотреть другие записи в блоге...</a></footer></article>
+
+<section class="l-container"><div class="b-feedback"><div class="b-feedback__description">Оставить отзыв или задать вопрос лично по email</div>
+
+        <form class="b-feedback__form" enctype="text/plain" method="post" action="mailto:feedback@orlov-vo.ru"><label class="b-feedback__field">Имя: <input class="b-feedback__control" type="text" name="name"></label>
+            <label class="b-feedback__field">Текст:
+                <textarea class="b-feedback__control" rows="5" cols="30" name="message"></textarea></label>
+            <button class="b-feedback__submit" type="submit">Отправить</button></form></div></section>
+
+<footer class="l-container l-footer">© 2017-2022 Все права защищены, Владислав Орлов.
+    <a href="https://github.com/orlov-vo/orlov-vo.ru" target="_blank">Исходники на GitHub</a></footer>
+
+
+		<script type="module" data-sveltekit-hydrate="9utaev">
+		import { start } from "/_app/immutable/start-d2c5b3f3.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="9utaev"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 2],
+				params: {path:"2017\u002Fkakoj-yazyk-programmirovaniya-vybrat-v-2018"},
+				routeId: "[...path]"
+			}
+		});
+	</script></div>
+
+        <!-- prettier-ignore -->
+        <script type="text/javascript">
+            !function(f,z){f.fz||(f.FintezaCoreObject=z,f.fz=f.fz||function(){(f.fz.q=f.fz.q||[]).push(arguments)},f.fz.l=1*new Date)}
+            (window,"fz");
+            fz("register","website","vfynzocmswvnmnfqcvajmpfwyolvwgfhaq");
+        </script>
+        <!-- prettier-ignore -->
+
+        <script src="https://content.finteza.com/core.js" defer async></script>
+    </body>
+</html>

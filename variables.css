@@ -1,0 +1,14 @@
+:root {
+    /* colors */
+    --normal-color: hsl(210, 6%, 20%);
+    --soft-color: hsl(210, 6%, 50%);
+    --border-color: hsl(210, 17%, 83%);
+    --primary-color: hsl(1, 32%, 46%);
+    --link-color: hsl(214, 49%, 50%);
+    --link-hover-color: hsl(214, 49%, 60%);
+    --link-visited-color: hsl(254, 50%, 50%);
+    --link-visited-hover-color: hsl(254, 50%, 60%);
+
+    /* other */
+    --img-radius: 5px;
+}

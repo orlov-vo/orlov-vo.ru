@@ -1,0 +1,76 @@
+name,category,like,exp
+Object-oriented programming,Paradigms,0.70,0.85
+Functional programming,Paradigms,0.85,0.80
+Declarative programming,Paradigms,0.98,0.74
+Imperative programming,Paradigms,0.10,0.98
+JavaScript,Programming language,0.80,0.95
+TypeScript,Programming language,0.92,0.93
+PHP,Programming language,0.40,0.35
+C,Programming language,0.20,0.30
+C++,Programming language,0.35,0.20
+Erlang,Programming language,0.45,0.30
+Elixir,Programming language,0.89,0.24
+Ruby,Programming language,0.67,0.42
+Rust,Programming language,0.65,0.21
+Go,Programming language,0.59,0.09
+Swift,Programming language,0.65,0.18
+React,Frontend Framework,0.75,0.85
+Vue 3,Frontend Framework,0.20,0.10
+Angular 2+,Frontend Framework,0.65,0.45
+Svelte 3,Frontend Framework,0.95,0.98
+Solidity,Crypto,0.75,0.34
+Truffle,Crypto,0.68,0.23
+OpenZeppelin,Crypto,0.94,0.27
+jQuery,Frontend Library,0.15,0.65
+D3,Frontend Library,0.45,0.55
+Lodash,Frontend Library,0.60,0.85
+Ramda,Frontend Library,0.55,0.58
+FP-TS,Frontend Library,0.85,0.32
+RxJS,Frontend Library,0.64,0.45
+Redux,Frontend Library,0.32,0.90
+Effector,Frontend Library,0.82,0.74
+ESBuild,Frontend Env,0.95,0.85
+Babel,Frontend Env,0.49,0.75
+Webpack,Frontend Env,0.42,0.81
+Parcel,Frontend Env,0.56,0.40
+ESLint,Frontend Env,0.98,0.65
+Yarn,Frontend Env,0.43,0.62
+Lerna,Frontend Env,0.81,0.67
+Vite,Frontend Env,0.85,0.20
+CSS,Styles,0.94,0.98
+CSS-in-JS,Styles,0.58,0.52
+Less,Styles,0.30,0.75
+Sass,Styles,0.45,0.75
+PostCSS,Styles,0.73,0.82
+Node.js,Backend,0.92,0.81
+Deno,Backend,0.95,0.15
+Express.js,Backend,0.40,0.75
+Koa 2,Backend,0.55,0.65
+Nest.js,Backend,0.63,0.30
+Laravel,Backend,0.65,0.45
+Ruby on Rails,Backend,0.87,0.65
+Phoenix,Backend,0.95,0.45
+Jest,Testing,0.82,0.81
+Mocha,Testing,0.40,0.20
+Puppeteer,Testing,0.73,0.84
+RSpec,Testing,0.98,0.48
+PHPUnit,Testing,0.20,0.25
+MySQL,DBMS,0.45,0.38
+PostgreSQL,DBMS,0.92,0.42
+MongoDB,DBMS,0.50,0.15
+ClickHouse,DBMS,0.65,0.05
+Wordpress,CMS,0.34,0.60
+MODx,CMS,0.30,0.10
+Drupal,CMS,0.25,0.05
+React Native,Mobile development,0.54,0.15
+Cordova,Mobile development,0.10,0.14
+Swift iOS,Mobile development,0.65,0.18
+Docker,Tools,0.92,0.65
+Terrfaform,Tools,0.45,0.12
+Ansible,Tools,0.32,0.04
+SVN,Tools,0.09,0.22
+Makefile,Tools,0.80,0.40
+Git,Tools,0.85,0.65
+Windows,OS,0.40,0.60
+Mac OS,OS,0.90,0.80
+Linux,OS,0.85,0.70

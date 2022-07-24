@@ -1,0 +1,109 @@
+.b-post {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.b-post__header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.b-post__title {
+    font-size: 2em;
+    line-height: 1.2;
+    flex: 1 0 100%;
+    margin-bottom: 0.5rem;
+}
+
+.b-post__date,
+.b-post__duration {
+    min-width: 10rem;
+    color: var(--soft-color);
+}
+
+.b-post__translations {
+    flex: 1 0 100%;
+    color: var(--soft-color);
+}
+
+@media print {
+    .b-post__translations {
+        display: none;
+    }
+}
+
+/* Typograpy in post */
+
+.b-post table {
+    min-width: 100%;
+    font-variant-numeric: tabular-nums;
+    border-collapse: collapse;
+}
+
+.b-post td,
+.b-post th {
+    padding: 0.5em;
+}
+
+.b-post tbody tr:nth-child(2n + 1) {
+    background: #eee;
+}
+
+.b-post img {
+    max-width: 100%;
+    border: 0;
+    border-radius: var(--img-radius);
+    margin: 1em 0;
+}
+
+.b-post figure {
+    margin: 1em 0 2em;
+}
+
+.b-post figure a {
+    display: block;
+}
+
+.b-post figure img {
+    display: block;
+    margin: 0;
+}
+
+.b-post code {
+    font-size: 0.9em;
+    background: #eee;
+    box-shadow: 0 0 0 0.1em #eee;
+    border-radius: 0.1em;
+    padding: 0 5px;
+}
+
+.b-post pre code {
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+}
+
+.b-post pre {
+    color: #f8f8f2;
+    background-color: #272822;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: var(--img-radius);
+    overflow-x: auto;
+    tab-size: 4;
+}
+
+.b-post .instagram-media,
+.b-post .instagram-media-registered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media (min-width: 480px) {
+    .b-post {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+}

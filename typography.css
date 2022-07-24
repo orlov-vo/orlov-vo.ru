@@ -1,0 +1,70 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.4;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    color: var(--normal-color);
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: center bottom 10%;
+    background-origin: initial;
+    background-size: 100% 0.5px;
+}
+
+a:hover,
+a:focus,
+a:active {
+    --link-color: var(--link-hover-color);
+}
+
+a:visited {
+    --link-color: var(--link-visited-color);
+}
+
+a:visited:hover,
+a:visited:focus,
+a:visited:active {
+    --link-color: var(--link-visited-hover-color);
+}
+
+a.invisible-link {
+    --link-color: ihnerit;
+    border-bottom: 0;
+    background: none;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+    color: var(--soft-color);
+    text-align: center;
+}

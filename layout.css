@@ -1,0 +1,46 @@
+.l-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.l-header {
+    position: relative;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.85em;
+    padding-left: calc(56px + 2rem);
+}
+
+@media print {
+    .l-header {
+        display: none;
+    }
+}
+
+.l-header__avatar {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 4rem;
+}
+
+.l-header__author {
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+}
+
+.l-footer {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.l-header__description {
+    margin: 0;
+}
