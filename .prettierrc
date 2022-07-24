@@ -3,5 +3,6 @@
     "semi": true,
     "trailingComma": "all",
     "singleQuote": true,
-    "proseWrap": "always"
+    "proseWrap": "always",
+    "overrides": [{ "files": "*.yml", "options": { "tabWidth": 2 } }]
 }

@@ -1,42 +1,39 @@
 name: Deploy
 on:
   push:
-    branches: [ master ]
+    branches: [master]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: 🛎️ Checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
-    - name: 🍭 Setup Node.js
-      uses: actions/setup-node@v2-beta
-      with:
-        node-version: '12'
+      - name: 🍭 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
-    - name: 💿 Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: 🎬 Restore cache for yarn
+        id: cache-npm
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            npm-cache-${{ hashFiles('package-lock.json') }}
+            npm-cache-
 
-    - name: 🎬 Restore cache for yarn
-      uses: actions/cache@v2
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-      with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
+      - name: 💩 Install dependencies
+        run: npm install
 
-    - name: 🔧 Install and Build
-      run: |
-        yarn
-        yarn build
+      - name: 🔧 Build site
+        run: npm run build
 
-    - name: 🚀 Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: dist
+      - name: 🚀 Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          folder: dist
