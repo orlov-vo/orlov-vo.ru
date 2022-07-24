@@ -7,7 +7,12 @@ import twemojify from 'rehype-twemojify';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
     kit: {
-        adapter: adapter(),
+        adapter: adapter({
+            pages: 'dist',
+            assets: 'dist',
+            fallback: '404.html',
+            precompress: true,
+        }),
         prerender: {
             default: true,
         },
