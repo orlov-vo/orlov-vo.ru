@@ -36,7 +36,7 @@
         top: calc(50% - 0.5rem);
         right: 0;
         content: '';
-        background: url(./qr-cv.svg) no-repeat;
+        background: url(/qr-cv.svg) no-repeat;
         background-size: contain;
         width: 64px;
         height: 64px;
