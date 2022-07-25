@@ -23,12 +23,8 @@ p:not(:last-child) {
 
 a {
     color: var(--link-color);
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-repeat: no-repeat;
-    background-position: center bottom 10%;
-    background-origin: initial;
-    background-size: 100% 0.5px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
 }
 
 a:hover,
@@ -49,8 +45,9 @@ a:visited:active {
 
 a.invisible-link {
     --link-color: ihnerit;
-    border-bottom: 0;
+
     background: none;
+    text-decoration: none;
 }
 
 h1,
