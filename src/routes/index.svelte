@@ -23,7 +23,7 @@
                 Я ведущий разработчик
                 <a href="https://www.meetsidekick.com/" target="_blank" rel="noopener noreferrer"
                     >браузера для продуктивной работы Sidekick</a
-                >. Программирую на JavaScript и TypeScript уже более пяти лет. Более подробно можно
+                >. Программирую в основном на JS/TS уже более десяти лет. Более подробно можно
                 <a href="/cv">почитать мое CV на английском</a>.
             </p>
 
