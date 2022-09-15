@@ -1,6 +1,6 @@
 import type { SvelteComponent } from 'svelte';
 
-const urls = import.meta.globEager('/src/content/**/*.md');
+const urls = import.meta.glob('/src/content/**/*.md', { eager: true });
 
 type Page = {
     readonly url: string;
@@ -13,6 +13,20 @@ type Page = {
     readonly tags: readonly string[];
     readonly Component: typeof SvelteComponent;
     readonly match: (path: string) => boolean;
+};
+
+type MarkdownContent = {
+    readonly default: typeof SvelteComponent;
+    readonly metadata: {
+        readonly aliases?: readonly string[];
+        readonly date?: number | string;
+        readonly slug?: string;
+        readonly draft?: boolean;
+        readonly title?: string;
+        readonly summary?: string;
+        readonly thumbnail?: string;
+        readonly tags?: readonly string[];
+    };
 };
 
 export const pages: Page[] = [];
@@ -28,7 +42,7 @@ const getSlug = (path: string): string => {
 
 Object.entries(urls).forEach(([filepath, content]) => {
     const path = filepath.replace('/src/content/', '');
-    const metadata = content['metadata'];
+    const { metadata, default: Component } = content as MarkdownContent;
 
     const postedAt = +new Date(metadata.date || 0);
     if (Number.isNaN(postedAt)) {
@@ -43,12 +57,12 @@ Object.entries(urls).forEach(([filepath, content]) => {
         url,
         type: path.startsWith('posts/') ? 'post' : 'page',
         postedAt,
-        isDraft: metadata.draft,
+        isDraft: Boolean(metadata.draft),
         title: metadata.title ?? '',
         summary: metadata.summary ?? '',
         thumbnail: metadata.thumbnail ?? '',
         tags: metadata.tags ?? [],
-        Component: content['default'],
+        Component,
         match: (path) => paths.includes(path),
     });
 });

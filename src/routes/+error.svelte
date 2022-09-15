@@ -1,17 +1,15 @@
-<script context="module" lang="ts">
-    export const load: import('@sveltejs/kit').Load = ({ error, status }) => {
-        return {
-            props: { status, error },
-        };
-    };
-</script>
-
 <script lang="ts">
+    import { page } from '$app/stores';
     import PageHeader from '$lib/components/PageHeader.svelte';
 
-    export let status: number;
-    export let error: Error | null;
+    $: status = $page.status;
+    $: error = $page.error;
 </script>
+
+<svelte:head>
+    <title>{status} - Vladislav Orlov - orlov-vo.ru</title>
+    <meta property="og:title" content="{status} - Vladislav Orlov - orlov-vo.ru" />
+</svelte:head>
 
 <PageHeader />
 
@@ -24,9 +22,13 @@
             Вы можете вернуться <a href="/">на главную</a>.
         </p>
     {:else}
-        <h1>{status}. Что-то пошло не так</h1>
         {#if error}
-            <pre><code>{error.stack}</code></pre>
+            <h1>{status}. {error.message}</h1>
+            {#if error.stack}
+                <pre><code>{error.stack}</code></pre>
+            {/if}
+        {:else}
+            <h1>{status}. Что-то пошло не так</h1>
         {/if}
         <p>
             Вы можете вернуться <a href="/">на главную</a>.

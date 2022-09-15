@@ -11,26 +11,24 @@
     "scripts": {
         "lint": "eslint src",
         "clean": "rimraf dist/",
-        "start": "svelte-kit dev",
-        "package": "svelte-kit package",
-        "preview": "svelte-kit preview",
-        "prepare": "svelte-kit sync",
-        "build": "svelte-kit build",
+        "start": "vite dev",
+        "preview": "vite preview",
+        "build": "vite build",
         "fmt": "prettier --write 'src/**/*.{js,css}' 'content/**/*.md' '*.{js,json}'",
         "deploy": "npm run build && gh-pages -b gh-pages -d dist",
         "deploy-only": "gh-pages -b gh-pages -d dist"
     },
     "devDependencies": {
-        "@sveltejs/adapter-static": "^1.0.0-next.34",
-        "@sveltejs/kit": "^1.0.0-next.354",
+        "@sveltejs/adapter-static": "^1.0.0-next.43",
+        "@sveltejs/kit": "^1.0.0-next.483",
         "@types/d3": "^7.4.0",
         "@types/route-parser": "^0.1.4",
-        "@typescript-eslint/eslint-plugin": "^5.29.0",
-        "@typescript-eslint/parser": "^5.29.0",
-        "eslint": "^8.18.0",
+        "@typescript-eslint/eslint-plugin": "^5.37.0",
+        "@typescript-eslint/parser": "^5.37.0",
+        "eslint": "^8.23.1",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-svelte3": "^4.0.0",
         "gh-pages": "^4.0.0",
         "mdsvex": "^0.10.6",
@@ -39,15 +37,16 @@
         "rehype-highlight": "^5.0.2",
         "rehype-twemojify": "^3.1.0",
         "rimraf": "^3.0.2",
-        "svelte": "^3.48.0",
-        "svelte-check": "^2.8.0",
+        "svelte": "^3.50.1",
+        "svelte-check": "^2.9.0",
         "svelte-preprocess": "^4.10.7",
         "tslib": "^2.4.0",
-        "typescript": "^4.7.4"
+        "typescript": "^4.8.3",
+        "vite": "^3.1.1"
     },
     "dependencies": {
-        "d3": "^7.4.5",
-        "date-fns": "^2.28.0",
-        "highlight.js": "^11.5.1"
+        "d3": "^7.6.1",
+        "date-fns": "^2.29.3",
+        "highlight.js": "^11.6.0"
     }
 }

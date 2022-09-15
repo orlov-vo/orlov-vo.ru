@@ -5,6 +5,11 @@
     import photo from './main-photo.jpg';
 </script>
 
+<svelte:head>
+    <title>Vladislav Orlov - orlov-vo.ru</title>
+    <meta property="og:title" content="Vladislav Orlov - orlov-vo.ru" />
+</svelte:head>
+
 <div class="p-home l-container">
     <h1 class="p-home__title">Vladislav Orlov</h1>
 

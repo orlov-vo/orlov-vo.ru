@@ -4,6 +4,11 @@
     import { posts } from '$lib/posts';
 </script>
 
+<svelte:head>
+    <title>Блог - Vladislav Orlov - orlov-vo.ru</title>
+    <meta property="og:title" content="Блог - Vladislav Orlov - orlov-vo.ru" />
+</svelte:head>
+
 <PageHeader />
 
 <section class="l-container">

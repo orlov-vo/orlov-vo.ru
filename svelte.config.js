@@ -13,9 +13,6 @@ const config = {
             fallback: '404.html',
             precompress: true,
         }),
-        prerender: {
-            default: true,
-        },
     },
     extensions: ['.svelte', '.md'],
     preprocess: [
