@@ -48,5 +48,3 @@ jobs:
       - name: 🚀 Deploy
         uses: actions/deploy-pages@v1
         id: deployment
-        with:
-          folder: dist
