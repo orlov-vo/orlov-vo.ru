@@ -1,6 +1,6 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 import highlight from 'rehype-highlight';
 import twemojify from 'rehype-twemojify';
 
@@ -16,7 +16,7 @@ const config = {
     },
     extensions: ['.svelte', '.md'],
     preprocess: [
-        preprocess(),
+        vitePreprocess(),
         mdsvex({
             extensions: ['.md'],
             layout: 'src/routes/posts/_post.svelte',

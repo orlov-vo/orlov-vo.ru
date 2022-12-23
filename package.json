@@ -9,14 +9,14 @@
     "type": "module",
     "browserslist": "last 2 versions",
     "scripts": {
-        "lint": "eslint src",
-        "clean": "rimraf dist/",
         "start": "vite dev",
-        "preview": "vite preview",
         "build": "vite build",
-        "fmt": "prettier --write 'src/**/*.{js,css}' 'content/**/*.md' '*.{js,json}'",
-        "deploy": "npm run build && gh-pages -b gh-pages -d dist",
-        "deploy-only": "gh-pages -b gh-pages -d dist"
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --plugin-search-dir . --check . && eslint .",
+        "coverage": "vitest run --coverage",
+        "fmt": "prettier --plugin-search-dir . --write ."
     },
     "devDependencies": {
         "@sveltejs/adapter-static": "^1.0.0",

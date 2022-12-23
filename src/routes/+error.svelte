@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores';
     import PageHeader from '$lib/components/PageHeader.svelte';
+    import { has } from '$lib/utils/has';
 
     $: status = $page.status;
     $: error = $page.error;
@@ -24,7 +25,7 @@
     {:else}
         {#if error}
             <h1>{status}. {error.message}</h1>
-            {#if error.stack}
+            {#if has(error, 'stack') && error.stack}
                 <pre><code>{error.stack}</code></pre>
             {/if}
         {:else}
