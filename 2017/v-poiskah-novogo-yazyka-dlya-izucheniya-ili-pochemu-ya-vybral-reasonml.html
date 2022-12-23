@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="../_app/immutable/start-8168b75d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-e0069a7a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-94e87837.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control-f5b05b5f.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-b4726efa.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_...path_/_page.svelte-7dc27bcb.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_...path_/_page.ts-ebe48708.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-cb487847.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/posts-ede6274c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/PageHeader-c8df5445.js"><title>В поисках нового языка для изучения или почему я выбрал ReasonML - Vladislav Orlov - orlov-vo.ru</title><!-- HEAD_svelte-zz9ekq_START --><link rel="stylesheet" href="/normalize.css"><link rel="stylesheet" href="/variables.css"><link rel="stylesheet" href="/typography.css"><link rel="stylesheet" href="/layout.css"><link rel="stylesheet" href="/blocks/post-list-short.css"><link rel="stylesheet" href="/blocks/post.css"><link rel="stylesheet" href="/blocks/feedback.css"><!-- HEAD_svelte-zz9ekq_END --><!-- HEAD_svelte-1obu40o_START --><meta property="og:title" content="В поисках нового языка для изучения или почему я выбрал ReasonML"><!-- HEAD_svelte-1obu40o_END -->
+    </head>
+    <body>
+        <div>
+
+
+
+
+
+
+<header class="l-container l-header"><a href="/" class="invisible-link"><picture><source srcset="/profile-pic.avif" type="image/avif">
+            <img class="l-header__avatar" src="/profile-pic.jpg" alt="Vladislav Orlov"></picture>
+
+        <author class="l-header__author">Vladislav Orlov</author></a>
+
+    <div class="l-header__description">Цифровой-кочевник и JS/TS разработчик</div>
+
+    <nav class="l-header__nav">
+            <a href="https://twitter.com/orlov_vo" target="_blank" rel="noreferrer">Twitter</a> ‧ 
+            <a href="https://github.com/orlov-vo" target="_blank" rel="noreferrer">GitHub</a> ‧ 
+            <a href="https://instagram.com/orlov_vo/" target="_blank" rel="noreferrer">Instagram</a> ‧ 
+            <a href="https://t.me/orlov_vo" target="_blank" rel="noreferrer">Telegram</a></nav></header>
+
+<article class="l-container b-post"><header class="b-post__header"><h1 class="b-post__title">В поисках нового языка для изучения или почему я выбрал ReasonML</h1>
+
+        <time class="b-post__date" datetime="2017-11-16T00:00:00.000Z">16.11.2017</time>
+
+        <span class="b-post__duration">5 мин. чтения</span></header>
+    <p><img src="/images/2017/reasonml.png" alt="ReasonML"></p>
+<p>В жизни программиста наступают такие моменты, когда ты осознаешь потребность в изучении чего-то
+нового. Это может быть что угодно: новая библиотека, фреймворк или язык программирования.</p>
+<p>Такая потребность связана с тем, что при творческом выгорании на работе со знакомыми инструментами,
+нервная система хочет пуститься в авантюру и изучить новое.</p>
+<h2>Постановка задачи и выбор кандидатов</h2>
+<p>Найти язык программирования, который отвечает следующим требованиям:</p>
+<ul><li>есть функциональная парадигма</li>
+<li>иммутабельность переменных</li>
+<li>строгая типизация</li>
+<li>возможность работать с экосистемой js (устанавливать npm пакеты)</li>
+<li>трансплитерация в js код</li>
+<li>есть коммерческая поддержка</li></ul>
+<p>Возможные кандидаты, которые хоть немного на слуху:</p>
+<ul><li>ClojureScript</li>
+<li>TypeScript</li>
+<li>Elm</li>
+<li>PureScript</li>
+<li>BuckleScript</li>
+<li>ReasonML</li></ul>
+<h3>ClojureScript</h3>
+<p>ClojureScript — это Clojure, который транслируется в JavaScript. Если говорить о самом Clojure, то
+это современный диалект Лиспа, является языком программирования общего назначения с поддержкой
+разработки в интерактивном режиме, поощряющий функциональное программирование.</p>
+<p>Появился в 2012 году и повлиял на становление других языков, которые реализовывали типы в JS:
+например на TypeScript.</p>
+<p>К сожалению, в последнее время испытывает сложности и вряд ли будет расти дальше, судя по Google
+Trends.</p>
+<h3>TypeScript</h3>
+<p>Язык программирования, который был создан в лабораториях Microsoft. Изначально вобрал в себя лучшее
+из двух миров: JS и C#. Но ориентация идет более на JS, т.к. данный язык является обратно
+совместимым с JS. Это позволяет очень быстро начать внедрять TypeScript на уже существующих
+проектах.</p>
+<p>Появился в 2012 году и очень стремительно развивается. Такое развитие, скорее, связано с
+использованием его во фреймворке Angular 2+, разрабатываемым Google.</p>
+<p>Я очень много на нем проектов сделал, отличный язык позволяющий явно указывать типы и проверять их
+на этапе компиляции. Спасал меня много раз от “выстрелов себе в ноги”.</p>
+<h3>Elm</h3>
+<p>Интересный язык программирования, который наделал много шума в 2016 году. Чем он так отличился от
+других? А тем, что автор заявил то, что с этим языком программирования не будет исключений в
+runtime. Это о том, о чём многие мечтают до сих пор.</p>
+<p>Но, есть во всем этом ложка дегтя: данный язык насаждает только одну архитектуру, которая возведена
+в абсолют, как единственно возможная. Да, такая диктатура делает все приложения легко понятными для
+всех. Но, такое ограничение не для меня, мне приходится часто писать код на бэкенде, а данный язык
+мне с этим помочь не может.</p>
+<h3>PureScript</h3>
+<p>Тот самый кандидат, который мне понравился по нескольким критериям. Он полностью функциональный -
+наследник Haskell, самого чистого функционального языка. Популярный судя по трендам.</p>
+<p>Думаю его попробовать изучить.</p>
+<h3>BuckleScript</h3>
+<p>Транслятор OCaml в JS.</p>
+<h3>ReasonML</h3>
+<p>Разработан недавно в компании Facebook. Наследник OCaml, который транслируется в JS через
+BuckleScript. Говоря о OCaml, данный язык очень популярен среди разработчиков Facebook, они им часто
+вдохновляются и создают такие крутые проекты, как React и т.д.</p>
+<p>По слухам, они создают транслятор JS -&gt; ReasonML. И это немного обескураживает. С таким
+инструментом, можно очень быстро “склонировать” экосистему JS.</p>
+<p>Начну с данного языка, т.к. он ближе по требованиям ко мне.</p>
+<h2>Резюмируя</h2>
+<p>Подводя итог, я хочу сказать, что я для себя выбрал пару языков, которые буду изучать в свободное от
+работы время на домашних проектах. Первый язык это ReasonML, он фаворит по требованиям, а второй
+PureScript, который мне также симпатичен.</p>
+
+    <footer class="b-post__footer"><a href="/posts/">Смотреть другие записи в блоге...</a></footer></article>
+
+<section class="l-container"><div class="b-feedback"><div class="b-feedback__description">Оставить отзыв или задать вопрос лично по email</div>
+
+        <form class="b-feedback__form" enctype="text/plain" method="post" action="mailto:feedback@orlov-vo.ru"><label class="b-feedback__field">Имя: <input class="b-feedback__control" type="text" name="name"></label>
+            <label class="b-feedback__field">Текст:
+                <textarea class="b-feedback__control" rows="5" cols="30" name="message"></textarea></label>
+            <button class="b-feedback__submit" type="submit">Отправить</button></form></div></section>
+
+<footer class="l-container l-footer">© 2017-2022 Все права защищены, Владислав Орлов.
+    <a href="https://github.com/orlov-vo/orlov-vo.ru" target="_blank" rel="noreferrer">Исходники на GitHub</a></footer>
+
+
+		<script type="module" data-sveltekit-hydrate="ans3vv">
+			import { start } from "../_app/immutable/start-8168b75d.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="ans3vv"]').parentNode,
+				version: "1671816470040",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+
+        <!-- prettier-ignore -->
+        <script type="text/javascript">
+            !function(f,z){f.fz||(f.FintezaCoreObject=z,f.fz=f.fz||function(){(f.fz.q=f.fz.q||[]).push(arguments)},f.fz.l=1*new Date)}
+            (window,"fz");
+            fz("register","website","vfynzocmswvnmnfqcvajmpfwyolvwgfhaq");
+        </script>
+        <!-- prettier-ignore -->
+
+        <script src="https://content.finteza.com/core.js" defer async></script>
+    </body>
+</html>

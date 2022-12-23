@@ -1,0 +1,1 @@
+import{H as r}from"./control-f5b05b5f.js";import{p as n}from"./posts-ede6274c.js";function a(o,t){return new r(o,t)}const p=async({params:o})=>{const t=n.find(e=>e.match(`/${o.path}`));if(!t)throw a(404,"Not found");return{title:t.title,Page:t.Component}},s=Object.freeze(Object.defineProperty({__proto__:null,load:p},Symbol.toStringTag,{value:"Module"}));export{s as _,p as l};
