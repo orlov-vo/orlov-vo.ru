@@ -12,5 +12,7 @@
 
 <footer class="l-container l-footer">
     © 2017-{new Date().getFullYear()} Все права защищены, Владислав Орлов.
-    <a href="https://github.com/orlov-vo/orlov-vo.ru" target="_blank">Исходники на GitHub</a>
+    <a href="https://github.com/orlov-vo/orlov-vo.ru" target="_blank" rel="noreferrer"
+        >Исходники на GitHub</a
+    >
 </footer>

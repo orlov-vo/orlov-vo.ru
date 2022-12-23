@@ -17,7 +17,7 @@
     <nav class="l-header__nav">
         {#each socialLinks as link, index}
             {#if index !== 0}{' ‧ '}{/if}
-            <a href={link.link} target="_blank">{link.name}</a>
+            <a href={link.link} target="_blank" rel="noreferrer">{link.name}</a>
         {/each}
     </nav>
 </header>

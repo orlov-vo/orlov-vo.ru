@@ -32,6 +32,7 @@
             href="https://www.instagram.com/p/{id}/?utm_source=ig_embed&amp;utm_campaign=loading"
             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
             target="_blank"
+            rel="noreferrer"
         >
             <div style=" display: flex; flex-direction: row; align-items: center;">
                 <div
@@ -128,7 +129,8 @@
             <a
                 href="https://www.instagram.com/p/{id}/?utm_source=ig_embed&amp;utm_campaign=loading"
                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                target="_blank">A post shared by Vladislav Orlov (@orlov_vo)</a
+                target="_blank"
+                rel="noreferrer">A post shared by Vladislav Orlov (@orlov_vo)</a
             >
         </p>
     </div>
